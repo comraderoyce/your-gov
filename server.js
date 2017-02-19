@@ -21,6 +21,11 @@ var repsNames = [];
     i++;
   }
 
+repsNames.sort(function(a, b) {
+    var textA = a.name.last.toUpperCase();
+    var textB = b.name.last.toUpperCase();
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+});
 
 // console.log(repsNames)
 console.log("Number of reps: " + repsNames.length)
