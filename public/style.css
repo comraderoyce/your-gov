@@ -1,0 +1,19 @@
+.card {
+  margin-bottom: 20px;
+
+}
+
+.state {
+  text-transform: capitalize;
+}
+
+.party.Democrat {
+  color: blue;
+}
+.party.Republican {
+  color: red;
+}
+
+#dreams {
+  padding: 0;
+}
