@@ -28,8 +28,8 @@ $(function() {
     console.log(reps);
     reps.forEach(function(rep) {
       var thisTerm = rep.terms[rep.terms.length - 1];
-      $('<div class="card col-sm-3 ' + thisTerm.party + '"></div>')
-        .append('<h4 class="name">' + rep.name.first + " " + rep.name.last + '</h4>')
+      $('<div class="card-2 col-sm-3 ' + thisTerm.party + '"></div>')
+        .append('<a href="' + thisTerm.url + '">' + '<h4 class="name">' + rep.name.first + ' ' + rep.name.last + '</h4></a>')
         .append('<h5 class="state">' + thisTerm.type + ", " + thisTerm.state + '</h5>')
         .append('<div class="party ' + thisTerm.party + '">' + thisTerm.party + '</div>')
         .append('<div class="terms">' + ordinalSuffix(rep.terms.length) + " term ends in " + thisTerm.end.substring(0,4) + '</div>')
