@@ -49,6 +49,14 @@ body {
   display: block!important;
 }
 
+i.fa-twitter {
+  margin-right: 10px;
+}
+
+i.fa-facebook {
+  margin-right: 10px;
+}
+
 @media (max-width: 991px) {
   .navbar-toggleable-md>.container {
       padding-right: 0;

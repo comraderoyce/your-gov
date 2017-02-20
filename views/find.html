@@ -134,7 +134,8 @@
               .append('<a href="' + rep.website + '" target="blank">' + '<h4 class="name">' + rep.first_name + ' ' + rep.     last_name + '</h4></a>')
               .append('<h5 class="state">' + rep.title + ", " + rep.state + '</h5>')
               // .append('<div class="party ' + rep.party + '">' + rep.party + '</div>')
-              .append('<a target="_blank" href="https://twitter.com/' + rep.twitter_id +  '"><i class="fa fa-lg fa-twitter"></i></a><br>')
+              .append('<a target="_blank" href="https://twitter.com/' + rep.twitter_id +  '"><i class="fa fa-lg fa-twitter"></i></a>')
+              .append('<a target="_blank" href="https://facebook.com/' + rep.facebook_id +  '"><i class="fa fa-lg fa-facebook"></i></a><br>')
               .append('<a class="phone" href="tel:' + rep.phone +  '">' + rep.phone + '</a>')
               .appendTo('ul#dreams');
           });
