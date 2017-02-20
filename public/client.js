@@ -30,7 +30,7 @@ $(function() {
     console.log(reps[0]);
     reps.forEach(function(rep) {
       var thisTerm = rep.terms[rep.terms.length - 1];
-      $('<div class="card-2 col-sm-3 ' + thisTerm.party + '"></div>')
+      $('<div class="card-2 col-md-3 col-sm-4' + thisTerm.party + '"></div>')
         .append('<a href="' + thisTerm.url + '" target="blank">' + '<h4 class="name">' + rep.name.first + ' ' + rep.name.last + '</h4></a>')
         .append('<h5 class="state">' + thisTerm.type + ", " + thisTerm.state + '</h5>')
         .append('<div class="party ' + thisTerm.party + '">' + thisTerm.party + '</div>')
