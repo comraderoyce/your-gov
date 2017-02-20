@@ -75,20 +75,28 @@ app.get("/reps", function (req, res) {
   res.send(repsNames);
 });
 
+app.get("/find", function (req, res) {
+  res.sendFile(__dirname + '/views/find.html');
+});
 
-app.get("/zip", function (req, res) {
-  
-  var sunlightResponse = "";
+app.get("/api/zip", function (req, res) {
 
-    request("https://congress.api.sunlightfoundation.com/districts/locate?zip=" + req.query.zip, function (error, response, body){
+    console.log("get this req: " + req.query.zip);
+    request("https://congress.api.sunlightfoundation.com/legislators/locate?zip=" + req.query.zip, function (error, response, body){
       if (!error && response.statusCode == 200) {
-          res.json(JSON.parse(body)._links.self);
+          res.send(body);
       }
     }); 
+});
 
+app.post("/api/zip", function (req, res) {
 
-
-
+    console.log("post of this req: " + req.query.zip);
+    request("https://congress.api.sunlightfoundation.com/legislators/locate?zip=" + req.query.zip, function (error, response, body){
+      if (!error && response.statusCode == 200) {
+          res.send(body);
+      }
+    }); 
 });
 
 // could also use the POST body instead of query string: http://expressjs.com/en/api.html#req.body

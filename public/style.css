@@ -11,6 +11,14 @@ body {
 
 }
 
+.card-2.Rep {
+  float: left;
+}
+
+.zip {
+  margin-top: 20px;
+}
+
 .state {
   text-transform: capitalize;
 }
