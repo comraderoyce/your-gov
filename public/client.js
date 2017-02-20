@@ -19,32 +19,26 @@ function ordinalSuffix(i) {
     return i + "th";
 }
 
+
+
 $(function() {
   console.log('hello world :o');
 
 
   
   $.get('/reps', function(reps) {
-    console.log(reps);
+    console.log(reps[0]);
     reps.forEach(function(rep) {
       var thisTerm = rep.terms[rep.terms.length - 1];
       $('<div class="card-2 col-sm-3 ' + thisTerm.party + '"></div>')
-        .append('<a href="' + thisTerm.url + '">' + '<h4 class="name">' + rep.name.first + ' ' + rep.name.last + '</h4></a>')
+        .append('<a href="' + thisTerm.url + '" target="blank">' + '<h4 class="name">' + rep.name.first + ' ' + rep.name.last + '</h4></a>')
         .append('<h5 class="state">' + thisTerm.type + ", " + thisTerm.state + '</h5>')
         .append('<div class="party ' + thisTerm.party + '">' + thisTerm.party + '</div>')
-        .append('<div class="terms">' + ordinalSuffix(rep.terms.length) + " term ends in " + thisTerm.end.substring(0,4) + '</div>')
+        .append('<div class="terms">' + ordinalSuffix(rep.terms.length) + " term ends " + thisTerm.end.substring(0,4) + '</div>')
+        .append('<a class="phone" href="tel:' + thisTerm.phone+  '">' + thisTerm.phone + '</a>')
         .appendTo('ul#dreams');
     });
-  });
 
-  $('form').submit(function(event) {
-    event.preventDefault();
-    var dream = $('input').val();
-    $.post('/dreams?' + $.param({dream: dream}), function() {
-      $('<li></li>').text(dream).appendTo('ul#dreams');
-      $('input').val('');
-      $('input').focus();
-    });
   });
 
 });

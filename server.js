@@ -41,6 +41,14 @@ app.get("/", function (request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
 
+app.get("/house", function (request, response) {
+  response.sendFile(__dirname + '/views/house.html');
+});
+
+app.get("/senate", function (request, response) {
+  response.sendFile(__dirname + '/views/senate.html');
+});
+
 app.get("/dreams", function (request, response) {
   response.send(dreams);
 });
