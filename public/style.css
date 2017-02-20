@@ -22,6 +22,10 @@ body {
   color: red;
 }
 
+#search {
+  margin-bottom: 20px;
+}
+
 #dreams {
   padding: 0;
 }

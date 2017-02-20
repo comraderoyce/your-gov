@@ -5,7 +5,9 @@
 var express = require('express');
 var app = express();
 
-YAML = require('yamljs');
+var request = require('request')
+
+var YAML = require('yamljs');
  
  
 // Load yaml file using YAML.load 
@@ -37,24 +39,56 @@ console.log("Number of reps: " + repsNames.length)
 app.use(express.static('public'));
 
 // http://expressjs.com/en/starter/basic-routing.html
-app.get("/", function (request, response) {
-  response.sendFile(__dirname + '/views/index.html');
+app.get("/", function (req, res) {
+  res.sendFile(__dirname + '/views/index.html');
 });
 
-app.get("/house", function (request, response) {
-  response.sendFile(__dirname + '/views/house.html');
+app.get("/house", function (req, res) {
+  res.sendFile(__dirname + '/views/house.html');
 });
 
-app.get("/senate", function (request, response) {
-  response.sendFile(__dirname + '/views/senate.html');
+app.get("/senate", function (req, res) {
+  res.sendFile(__dirname + '/views/senate.html');
 });
 
-app.get("/dreams", function (request, response) {
-  response.send(dreams);
+app.get("/api/bills", function (req, res) {
+  
+  var sunlightResponse = "";
+
+    request("https://congress.api.sunlightfoundation.com/bills?congress=115&per_page=100", function (error, response, body){
+      if (!error && response.statusCode == 200) {
+          res.send(body);
+      }
+    }); 
+
 });
 
-app.get("/reps", function (request, response) {
-  response.send(repsNames);
+app.get("/bills", function (req, res) {
+  res.sendFile(__dirname + '/views/bills.html');
+});
+
+app.get("/dreams", function (req, res) {
+  res.send(dreams);
+});
+
+app.get("/reps", function (req, res) {
+  res.send(repsNames);
+});
+
+
+app.get("/zip", function (req, res) {
+  
+  var sunlightResponse = "";
+
+    request("https://congress.api.sunlightfoundation.com/districts/locate?zip=" + req.query.zip, function (error, response, body){
+      if (!error && response.statusCode == 200) {
+          res.json(JSON.parse(body)._links.self);
+      }
+    }); 
+
+
+
+
 });
 
 // could also use the POST body instead of query string: http://expressjs.com/en/api.html#req.body

@@ -26,7 +26,7 @@
         <div class="container">
           <a class="navbar-brand" href="#">🇺🇸</a>
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="/">All <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -35,7 +35,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/senate">Senate</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="/bills">Bills</a>
             </li>
           </ul>
@@ -49,7 +49,7 @@
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <strong>Hey there!</strong> This is a list of the current members of Congress. Call them about issues you care about.
+        <strong>Hey there!</strong> This is a list of the most recent bills going through Congress.
       </div>
 
       <section class="dreams">
@@ -71,7 +71,53 @@
     <script src="http://listjs.com/assets/javascripts/list.min.js"></script>
 
         
-    <script src="/client.js"></script>
+    <script>
+      // client-side js
+      // run by the browser each time your view template is loaded
+      
+      // by default, you've got jQuery,
+      // add other scripts at the bottom of index.html
+      
+      function ordinalSuffix(i) {
+          var j = i % 10,
+              k = i % 100;
+          if (j == 1 && k != 11) {
+              return i + "st";
+          }
+          if (j == 2 && k != 12) {
+              return i + "nd";
+          }
+          if (j == 3 && k != 13) {
+              return i + "rd";
+          }
+          return i + "th";
+      }
+      
+      
+      
+      $(function() {
+        console.log('hello world :o');
+      
+      
+        
+        $.get('/api/bills', function(bills) {
+          console.log(bills);
+          var billsObject = JSON.parse(bills);
+          console.log(billsObject);
+
+          billsObject.results.forEach(function(bill) {
+            $('<div class="card-2 col-sm-12"></div>')
+              .append('<h3 class="billTitle"><a target="_blank" href="' + bill.urls.congress +'">'   + bill.bill_id + '</a></h3>')
+              .append('<p class="billOfficialTitle">' + bill.official_title + '</p>')
+              .append('<p class="billSponsor">Sponsor: ' + bill.sponsor.first_name +  ' ' + bill.sponsor.last_name + '</p>')
+              .appendTo('ul#dreams'); 
+          });
+      
+        });
+      
+      });
+      
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   </body>
