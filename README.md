@@ -1,27 +1,22 @@
-Welcome to the Gomix BETA
+Your Gov
 =========================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+A set of web tools to help people engage with the political process in the US. Built with Node and Bootstrap 4.
 
-Gomix is a developer playground that lets you code a real web-app without the slow setup and deployment steps.
-
-[About Gomix](https://gomix.com/about)
+[app.yourgov.us](http://app.yourgov.us)
 
 
-Your Project
+Features
 ------------
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env`
+There are a few ways that you can use the app: 
 
-On the front-end,
-- edit `client.js`, `style.css` and `index.html`
-- drag in `assets`, like images or music, to add them to your project
+- See a list of senators and representatives. 
+- Search for your representatives by Zip Code
+- See the latest bills that are going through Congress
 
 
-Made by Fog Creek
+Made by Royce Wells
 -----------------
 
 \ ゜o゜)ノ

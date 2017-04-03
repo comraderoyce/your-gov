@@ -1,0 +1,1174 @@
+2017-02-20T04:48:20.143521+00:00 app[api]: Initial release by user wells.royce@gmail.com
+2017-02-20T04:48:20.143521+00:00 app[api]: Release v1 created by user wells.royce@gmail.com
+2017-02-20T04:48:20.322514+00:00 app[api]: Enable Logplex by user wells.royce@gmail.com
+2017-02-20T04:48:20.322514+00:00 app[api]: Release v2 created by user wells.royce@gmail.com
+2017-02-20T04:48:20.477627+00:00 app[api]: Release v2 created by user wells.royce@gmail.com
+2017-02-20T04:48:20.391989+00:00 app[api]: Release v1 created by user wells.royce@gmail.com
+2017-02-20T04:48:48.546829+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T04:48:48.546838+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T04:48:48.269697+00:00 app[api]: Scaled to web@1:Free by user wells.royce@gmail.com
+2017-02-20T04:48:48.254856+00:00 app[api]: Release v3 created by user wells.royce@gmail.com
+2017-02-20T04:48:48.680622+00:00 app[api]: Release v3 created by user wells.royce@gmail.com
+2017-02-20T04:48:48.254856+00:00 app[api]: Deploy 6737ad2 by user wells.royce@gmail.com
+2017-02-20T04:48:49.891692+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T04:48:52.410906+00:00 app[web.1]: 
+2017-02-20T04:48:52.410925+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T04:48:52.410926+00:00 app[web.1]: > node server.js
+2017-02-20T04:48:52.410927+00:00 app[web.1]: 
+2017-02-20T04:48:53.532773+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T04:48:53.532785+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T04:48:53.532786+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T04:48:53.540002+00:00 app[web.1]: Number of reps: 539
+2017-02-20T04:48:53.557276+00:00 app[web.1]: Your app is listening on port 3000
+2017-02-20T04:49:50.354076+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2017-02-20T04:49:50.335625+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2017-02-20T04:49:50.335697+00:00 heroku[web.1]: Stopping process with SIGKILL
+2017-02-20T04:49:50.431746+00:00 heroku[web.1]: Process exited with status 22
+2017-02-20T04:49:50.451560+00:00 heroku[web.1]: State changed from starting to crashed
+2017-02-20T04:49:50.452381+00:00 heroku[web.1]: State changed from crashed to starting
+2017-02-20T04:49:50.669259+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T04:49:50.669268+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T04:49:50.522040+00:00 app[api]: Deploy d6b8cab by user wells.royce@gmail.com
+2017-02-20T04:49:50.522040+00:00 app[api]: Release v4 created by user wells.royce@gmail.com
+2017-02-20T04:49:50.863350+00:00 app[api]: Release v4 created by user wells.royce@gmail.com
+2017-02-20T04:49:50.907340+00:00 heroku[web.1]: Restarting
+2017-02-20T04:49:51.618947+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T04:49:53.057037+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T04:49:53.249688+00:00 app[web.1]: 
+2017-02-20T04:49:53.249704+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T04:49:53.249704+00:00 app[web.1]: > node server.js
+2017-02-20T04:49:53.249705+00:00 app[web.1]: 
+2017-02-20T04:49:54.588038+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T04:49:54.588026+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T04:49:54.607656+00:00 app[web.1]: Your app is listening on port 3000
+2017-02-20T04:49:54.588037+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T04:49:54.593928+00:00 app[web.1]: Number of reps: 539
+2017-02-20T04:49:56.705344+00:00 app[web.1]: 
+2017-02-20T04:49:56.705366+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T04:49:56.705367+00:00 app[web.1]: > node server.js
+2017-02-20T04:49:56.705368+00:00 app[web.1]: 
+2017-02-20T04:49:58.414186+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T04:49:58.414201+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T04:49:58.414202+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T04:49:58.421438+00:00 app[web.1]: Number of reps: 539
+2017-02-20T04:49:58.443121+00:00 app[web.1]: Your app is listening on port 5000
+2017-02-20T04:50:09.499596+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=desolate-plateau-45883.herokuapp.com request_id=53f5537e-b3b8-4bd4-a3e7-eae474d9e9c0 fwd="24.104.249.122" dyno= connect= service= status=503 bytes=
+2017-02-20T04:50:51.920182+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2017-02-20T04:50:51.920260+00:00 heroku[web.1]: Stopping process with SIGKILL
+2017-02-20T04:50:52.052391+00:00 heroku[web.1]: Process exited with status 137
+2017-02-20T04:50:53.620463+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2017-02-20T04:50:53.620463+00:00 heroku[web.1]: Stopping process with SIGKILL
+2017-02-20T04:50:53.785793+00:00 heroku[web.1]: State changed from starting to crashed
+2017-02-20T04:50:53.760850+00:00 heroku[web.1]: Process exited with status 137
+2017-02-20T04:50:55.434599+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-plateau-45883.herokuapp.com request_id=47c353eb-347d-429f-a2ff-03334e6289d4 fwd="24.104.249.122" dyno= connect= service= status=503 bytes=
+2017-02-20T04:50:56.660532+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=desolate-plateau-45883.herokuapp.com request_id=fdaf92d0-b829-4ae9-8f3d-17bdfe90c8db fwd="24.104.249.122" dyno= connect= service= status=503 bytes=
+2017-02-20T04:53:46.968995+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T04:53:46.969003+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T04:53:46.800801+00:00 app[api]: Deploy 83ae9f9 by user wells.royce@gmail.com
+2017-02-20T04:53:46.800801+00:00 app[api]: Release v5 created by user wells.royce@gmail.com
+2017-02-20T04:53:47.058747+00:00 app[api]: Release v5 created by user wells.royce@gmail.com
+2017-02-20T04:53:48.494339+00:00 heroku[web.1]: State changed from crashed to starting
+2017-02-20T04:53:49.743634+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T04:53:52.487236+00:00 app[web.1]: 
+2017-02-20T04:53:52.487257+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T04:53:52.487258+00:00 app[web.1]: > node server.js
+2017-02-20T04:53:52.487258+00:00 app[web.1]: 
+2017-02-20T04:53:53.644531+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T04:53:53.644545+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T04:53:53.644546+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T04:53:53.648705+00:00 app[web.1]: Number of reps: 539
+2017-02-20T04:53:53.660684+00:00 app[web.1]: Your app is listening on port 58661
+2017-02-20T04:53:54.124062+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T04:53:55.798674+00:00 heroku[router]: at=info method=GET path="/" host=desolate-plateau-45883.herokuapp.com request_id=d38e069f-cac4-4ad5-836f-b3c7539b3f2b fwd="24.104.249.122" dyno=web.1 connect=1ms service=24ms status=200 bytes=3179
+2017-02-20T04:53:55.838738+00:00 heroku[router]: at=info method=GET path="/client.js" host=desolate-plateau-45883.herokuapp.com request_id=5af40edf-1c1d-413f-808e-eb99b3c4914a fwd="24.104.249.122" dyno=web.1 connect=1ms service=9ms status=200 bytes=1594
+2017-02-20T04:53:55.851027+00:00 heroku[router]: at=info method=GET path="/style.css" host=desolate-plateau-45883.herokuapp.com request_id=65cfd5e7-d31c-45b1-9e06-0e51afa800dc fwd="24.104.249.122" dyno=web.1 connect=1ms service=7ms status=200 bytes=768
+2017-02-20T04:53:56.463075+00:00 heroku[router]: at=info method=GET path="/reps" host=desolate-plateau-45883.herokuapp.com request_id=1a972819-286b-4811-8aa7-e35506ab45e7 fwd="24.104.249.122" dyno=web.1 connect=1ms service=54ms status=200 bytes=972936
+2017-02-20T04:54:08.481481+00:00 heroku[router]: at=info method=GET path="/style.css" host=desolate-plateau-45883.herokuapp.com request_id=16f19cfe-fa92-417e-8509-dc9106b84f94 fwd="24.104.249.122" dyno=web.1 connect=2ms service=3ms status=304 bytes=237
+2017-02-20T04:54:08.405024+00:00 heroku[router]: at=info method=GET path="/senate" host=desolate-plateau-45883.herokuapp.com request_id=6a7a60c8-c886-4801-a461-f4fb6fc95c48 fwd="24.104.249.122" dyno=web.1 connect=1ms service=4ms status=200 bytes=5203
+2017-02-20T04:54:08.723756+00:00 heroku[router]: at=info method=GET path="/reps" host=desolate-plateau-45883.herokuapp.com request_id=73da2bc7-e6d8-4b03-b25c-261bbbcee7fc fwd="24.104.249.122" dyno=web.1 connect=2ms service=20ms status=304 bytes=148
+2017-02-20T04:54:10.860867+00:00 heroku[router]: at=info method=GET path="/style.css" host=desolate-plateau-45883.herokuapp.com request_id=09bb45b3-2d50-47a8-8b15-5cb709ec31fb fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-20T04:54:10.799676+00:00 heroku[router]: at=info method=GET path="/bills" host=desolate-plateau-45883.herokuapp.com request_id=5dc74620-eeb5-499b-87f2-4680a59ff0a6 fwd="24.104.249.122" dyno=web.1 connect=1ms service=4ms status=200 bytes=4509
+2017-02-20T04:54:11.124973+00:00 heroku[router]: at=info method=GET path="/api/bills" host=desolate-plateau-45883.herokuapp.com request_id=eb61e20d-0f9c-4b48-9f43-9d3d2c0c4fa0 fwd="24.104.249.122" dyno=web.1 connect=1ms service=154ms status=200 bytes=49347
+2017-02-20T04:54:12.913389+00:00 heroku[router]: at=info method=GET path="/house" host=desolate-plateau-45883.herokuapp.com request_id=2ca87425-d459-4174-911c-25b14f0485cc fwd="24.104.249.122" dyno=web.1 connect=1ms service=4ms status=200 bytes=4832
+2017-02-20T04:54:12.978153+00:00 heroku[router]: at=info method=GET path="/style.css" host=desolate-plateau-45883.herokuapp.com request_id=c9f58fdc-9aef-4887-abde-141e7c6e2ba6 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T04:54:13.121818+00:00 heroku[router]: at=info method=GET path="/reps" host=desolate-plateau-45883.herokuapp.com request_id=7e043232-28bc-4242-9199-648542c472b8 fwd="24.104.249.122" dyno=web.1 connect=1ms service=19ms status=304 bytes=148
+2017-02-20T04:54:34.032375+00:00 heroku[router]: at=info method=GET path="/senate" host=desolate-plateau-45883.herokuapp.com request_id=90f9cd8e-004b-4a88-b078-b506e6981a30 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=238
+2017-02-20T04:54:34.103568+00:00 heroku[router]: at=info method=GET path="/style.css" host=desolate-plateau-45883.herokuapp.com request_id=59b24551-6f8f-486d-b3bf-1539e819facf fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T04:54:34.265962+00:00 heroku[router]: at=info method=GET path="/reps" host=desolate-plateau-45883.herokuapp.com request_id=3d907024-2957-47cd-89ea-93efef2f6284 fwd="24.104.249.122" dyno=web.1 connect=1ms service=27ms status=304 bytes=148
+2017-02-20T05:12:39.428195+00:00 heroku[router]: at=info method=GET path="/client.js" host=www.yourgov.us request_id=55f9ac39-2755-4d1b-b9d5-3f9ea97eecb3 fwd="24.104.249.122" dyno=web.1 connect=0ms service=3ms status=200 bytes=1594
+2017-02-20T05:12:39.401317+00:00 heroku[router]: at=info method=GET path="/style.css" host=www.yourgov.us request_id=a38afbb1-cfe0-4a11-9079-5d8fea87b6a7 fwd="24.104.249.122" dyno=web.1 connect=0ms service=3ms status=200 bytes=768
+2017-02-20T05:12:39.331147+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=5e5c1483-2202-47c1-a3c0-5daf80db2152 fwd="24.104.249.122" dyno=web.1 connect=0ms service=13ms status=200 bytes=3179
+2017-02-20T05:12:40.001226+00:00 heroku[router]: at=info method=GET path="/reps" host=www.yourgov.us request_id=9921fca6-e824-463d-afc7-40fe48e7ea55 fwd="24.104.249.122" dyno=web.1 connect=0ms service=54ms status=200 bytes=972936
+2017-02-20T05:12:56.716315+00:00 heroku[router]: at=info method=GET path="/bills" host=www.yourgov.us request_id=d7937d64-89bf-43ff-ad61-17ad82f8696d fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=200 bytes=4509
+2017-02-20T05:12:56.780370+00:00 heroku[router]: at=info method=GET path="/style.css" host=www.yourgov.us request_id=2a55c98a-6aa7-4d83-866c-73fe26fde991 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T05:12:57.119439+00:00 heroku[router]: at=info method=GET path="/api/bills" host=www.yourgov.us request_id=7f297167-60e1-4b46-9518-58da48841366 fwd="24.104.249.122" dyno=web.1 connect=0ms service=120ms status=200 bytes=49347
+2017-02-20T05:12:57.909630+00:00 heroku[router]: at=info method=GET path="/senate" host=www.yourgov.us request_id=4a0dd585-00cb-4b41-be20-91b73d9c5b3b fwd="24.104.249.122" dyno=web.1 connect=0ms service=3ms status=200 bytes=5203
+2017-02-20T05:12:57.957342+00:00 heroku[router]: at=info method=GET path="/style.css" host=www.yourgov.us request_id=b6ee4a69-7a53-4e11-8d3c-7f4188c37787 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T05:12:58.129676+00:00 heroku[router]: at=info method=GET path="/reps" host=www.yourgov.us request_id=96a76ddb-dab4-49ba-a3c1-d8e58f5444f0 fwd="24.104.249.122" dyno=web.1 connect=0ms service=17ms status=304 bytes=148
+2017-02-20T05:12:58.953205+00:00 heroku[router]: at=info method=GET path="/house" host=www.yourgov.us request_id=7179b083-4b35-41d7-b758-f96d562573b3 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=200 bytes=4832
+2017-02-20T05:12:58.995852+00:00 heroku[router]: at=info method=GET path="/style.css" host=www.yourgov.us request_id=f8eb8c6f-79e3-4292-adbd-9b5fabc19f47 fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:12:59.173654+00:00 heroku[router]: at=info method=GET path="/reps" host=www.yourgov.us request_id=dd31cec6-e67e-4856-9491-8506c3c6dc1e fwd="24.104.249.122" dyno=web.1 connect=0ms service=18ms status=304 bytes=148
+2017-02-20T05:12:59.893072+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=d866abe6-0679-4a17-ba6d-454678cd531a fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=304 bytes=237
+2017-02-20T05:12:59.974819+00:00 heroku[router]: at=info method=GET path="/client.js" host=www.yourgov.us request_id=41fb483b-5223-4bc3-9784-9afef79695e5 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T05:12:59.970350+00:00 heroku[router]: at=info method=GET path="/style.css" host=www.yourgov.us request_id=08c5b408-aeef-4b85-8a87-a44014035147 fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:13:00.167237+00:00 heroku[router]: at=info method=GET path="/reps" host=www.yourgov.us request_id=74da13b8-9d89-4035-ba85-916b10773cb8 fwd="24.104.249.122" dyno=web.1 connect=7ms service=35ms status=304 bytes=148
+2017-02-20T05:17:46.953891+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=42a3cd59-0e99-479e-93b9-f4e914104cf0 fwd="24.104.249.122" dyno=web.1 connect=0ms service=11ms status=200 bytes=3179
+2017-02-20T05:17:47.027757+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=872b75f1-0bf1-4c4d-9d28-6c0e70f3539a fwd="24.104.249.122" dyno=web.1 connect=0ms service=4ms status=200 bytes=1594
+2017-02-20T05:17:47.026811+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=199e0904-12f4-4d6d-ae76-a6c90f3facf0 fwd="24.104.249.122" dyno=web.1 connect=0ms service=4ms status=200 bytes=768
+2017-02-20T05:17:47.346702+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=252bb79c-38c6-43a3-8715-cc663b778536 fwd="24.104.249.122" dyno=web.1 connect=0ms service=35ms status=200 bytes=972936
+2017-02-20T05:18:26.563499+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=7803a9e5-7866-472c-89d0-63f00eb90c40 fwd="24.104.249.122" dyno=web.1 connect=0ms service=21ms status=200 bytes=4509
+2017-02-20T05:18:26.622483+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=af54f77c-e810-4d62-9e21-0c7fa314b09a fwd="24.104.249.122" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2017-02-20T05:18:27.057420+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=3fb37046-2985-44b2-b22e-d4130bca9818 fwd="24.104.249.122" dyno=web.1 connect=0ms service=99ms status=200 bytes=49347
+2017-02-20T05:19:06.611771+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=ef776a34-bd61-4f66-ba98-e750497f6aae fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T05:19:06.743661+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=310bb47b-52ac-4955-b613-b50b2b5f02e3 fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:19:06.778708+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=10ec66d3-bce4-4892-aca3-b82e9f331c30 fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-20T05:19:07.005590+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=edc8b101-ea0f-49f5-8d49-5c533afaabc9 fwd="24.104.249.122" dyno=web.1 connect=1ms service=20ms status=304 bytes=148
+2017-02-20T05:20:08.528792+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T05:20:08.528813+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T05:20:08.389380+00:00 app[api]: Deploy 7a8e2fb by user wells.royce@gmail.com
+2017-02-20T05:20:08.389380+00:00 app[api]: Release v6 created by user wells.royce@gmail.com
+2017-02-20T05:20:08.795429+00:00 app[api]: Release v6 created by user wells.royce@gmail.com
+2017-02-20T05:20:09.234667+00:00 heroku[web.1]: Restarting
+2017-02-20T05:20:09.235440+00:00 heroku[web.1]: State changed from up to starting
+2017-02-20T05:20:09.725981+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T05:20:09.866283+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T05:20:10.509223+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T05:20:13.156346+00:00 app[web.1]: 
+2017-02-20T05:20:13.156364+00:00 app[web.1]: > node server.js
+2017-02-20T05:20:13.156363+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T05:20:13.156365+00:00 app[web.1]: 
+2017-02-20T05:20:14.492665+00:00 app[web.1]: Your app is listening on port 24674
+2017-02-20T05:20:14.473073+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T05:20:14.473056+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T05:20:14.473074+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T05:20:14.478473+00:00 app[web.1]: Number of reps: 539
+2017-02-20T05:20:14.797049+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T05:20:16.598661+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=a026704c-e9cd-4799-81d9-f09291c8cac0 fwd="24.104.249.122" dyno=web.1 connect=0ms service=21ms status=200 bytes=3179
+2017-02-20T05:20:16.679997+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=aebac7c8-b712-4760-a97c-c5c4868156b8 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=200 bytes=1594
+2017-02-20T05:20:16.666016+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=76a69634-0b3a-4608-9f5c-0ad2ba2fd956 fwd="24.104.249.122" dyno=web.1 connect=0ms service=6ms status=200 bytes=768
+2017-02-20T05:20:16.969099+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=80e72617-a464-41e1-aafb-9ccda1dd1131 fwd="24.104.249.122" dyno=web.1 connect=0ms service=16ms status=304 bytes=148
+2017-02-20T05:20:19.320050+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=50b2bb7c-b4c7-4774-9a56-be30f438da08 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T05:20:19.264362+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=fa73bd15-5eb4-4f47-b0e8-7b806749ba2d fwd="24.104.249.122" dyno=web.1 connect=0ms service=3ms status=200 bytes=4832
+2017-02-20T05:20:19.495601+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=d2944a14-7f9f-4cf4-940f-343439a4a5e5 fwd="24.104.249.122" dyno=web.1 connect=0ms service=17ms status=304 bytes=148
+2017-02-20T05:20:21.436728+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=b0494e15-326c-4d86-b68c-f40e2f423929 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T05:20:21.483260+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=9987914a-9dde-4226-ad32-629f78f3306c fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:20:21.490230+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=be7ec131-9572-48a2-98a7-baadf179cc8d fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:20:21.653139+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=fba6d987-e9cb-43e6-b6fb-95ef4d5abf1b fwd="24.104.249.122" dyno=web.1 connect=0ms service=15ms status=304 bytes=148
+2017-02-20T05:21:45.498564+00:00 app[web.1]: /app/server.js:85
+2017-02-20T05:21:45.498587+00:00 app[web.1]:           res.json(JSON.parse(body)._links.self);
+2017-02-20T05:21:45.498589+00:00 app[web.1]:                                           ^
+2017-02-20T05:21:45.498589+00:00 app[web.1]: 
+2017-02-20T05:21:45.498590+00:00 app[web.1]: TypeError: Cannot read property 'self' of undefined
+2017-02-20T05:21:45.498590+00:00 app[web.1]:     at Request._callback (/app/server.js:85:43)
+2017-02-20T05:21:45.498591+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/request/request.js:186:22)
+2017-02-20T05:21:45.498592+00:00 app[web.1]:     at emitTwo (events.js:106:13)
+2017-02-20T05:21:45.498592+00:00 app[web.1]:     at Request.emit (events.js:191:7)
+2017-02-20T05:21:45.498593+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/request/request.js:1081:10)
+2017-02-20T05:21:45.498594+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-20T05:21:45.498594+00:00 app[web.1]:     at Request.emit (events.js:188:7)
+2017-02-20T05:21:45.498595+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/request/request.js:1001:12)
+2017-02-20T05:21:45.498596+00:00 app[web.1]:     at IncomingMessage.g (events.js:291:16)
+2017-02-20T05:21:45.498596+00:00 app[web.1]:     at emitNone (events.js:91:20)
+2017-02-20T05:21:45.513093+00:00 app[web.1]: 
+2017-02-20T05:21:45.521644+00:00 app[web.1]: npm ERR! Linux 3.13.0-105-generic
+2017-02-20T05:21:45.521873+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2017-02-20T05:21:45.522033+00:00 app[web.1]: npm ERR! node v6.9.5
+2017-02-20T05:21:45.522356+00:00 app[web.1]: npm ERR! npm  v3.10.10
+2017-02-20T05:21:45.522490+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2017-02-20T05:21:45.522655+00:00 app[web.1]: npm ERR! my-reps@0.0.4 start: `node server.js`
+2017-02-20T05:21:45.522712+00:00 app[web.1]: npm ERR! Exit status 1
+2017-02-20T05:21:45.522823+00:00 app[web.1]: npm ERR! 
+2017-02-20T05:21:45.522932+00:00 app[web.1]: npm ERR! Failed at the my-reps@0.0.4 start script 'node server.js'.
+2017-02-20T05:21:45.523000+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2017-02-20T05:21:45.523068+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the my-reps package,
+2017-02-20T05:21:45.523185+00:00 app[web.1]: npm ERR! not with npm itself.
+2017-02-20T05:21:45.523262+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2017-02-20T05:21:45.523327+00:00 app[web.1]: npm ERR!     node server.js
+2017-02-20T05:21:45.523395+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2017-02-20T05:21:45.523503+00:00 app[web.1]: npm ERR!     npm bugs my-reps
+2017-02-20T05:21:45.523570+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2017-02-20T05:21:45.523625+00:00 app[web.1]: npm ERR!     npm owner ls my-reps
+2017-02-20T05:21:45.523750+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2017-02-20T05:21:45.544739+00:00 app[web.1]: 
+2017-02-20T05:21:45.544930+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2017-02-20T05:21:45.551103+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2017-02-20T05:21:45.624491+00:00 heroku[web.1]: Process exited with status 1
+2017-02-20T05:21:45.508022+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/zip?=blah" host=app.yourgov.us request_id=4beead01-e5f8-422f-8cb8-dddde83c7459 fwd="24.104.249.122" dyno=web.1 connect=1ms service=147ms status=503 bytes=0
+2017-02-20T05:21:45.666849+00:00 heroku[web.1]: State changed from up to crashed
+2017-02-20T05:21:45.669528+00:00 heroku[web.1]: State changed from crashed to starting
+2017-02-20T05:21:47.016124+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T05:21:49.319300+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T05:21:49.319301+00:00 app[web.1]: > node server.js
+2017-02-20T05:21:49.319301+00:00 app[web.1]: 
+2017-02-20T05:21:49.319283+00:00 app[web.1]: 
+2017-02-20T05:21:50.363892+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T05:21:50.363903+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T05:21:50.363904+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T05:21:50.368068+00:00 app[web.1]: Number of reps: 539
+2017-02-20T05:21:50.379902+00:00 app[web.1]: Your app is listening on port 9438
+2017-02-20T05:21:50.829206+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T05:21:52.213833+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=6b952b39-cb40-4841-ab9c-0dcaa9c2f65b fwd="24.104.249.122" dyno=web.1 connect=1ms service=16ms status=304 bytes=237
+2017-02-20T05:21:52.278864+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=89464ced-c556-4019-891e-045776ad3540 fwd="24.104.249.122" dyno=web.1 connect=1ms service=5ms status=304 bytes=237
+2017-02-20T05:21:52.281392+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=720fb323-c7e5-4ee0-8059-6cb7d7a557b0 fwd="24.104.249.122" dyno=web.1 connect=1ms service=1ms status=304 bytes=237
+2017-02-20T05:21:52.519239+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=5a95a004-a480-4759-aa02-5c81973091ee fwd="24.104.249.122" dyno=web.1 connect=1ms service=17ms status=304 bytes=148
+2017-02-20T05:22:02.906288+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=a6d6b072-b6bc-40d7-8fa7-c212f438c595 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=238
+2017-02-20T05:22:02.968267+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=e0757ee3-6755-4e3e-9fd2-18b66f86cb6f fwd="24.104.249.122" dyno=web.1 connect=1ms service=1ms status=304 bytes=237
+2017-02-20T05:22:03.112142+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=a2781227-ee18-4c62-8cbb-0ecb35890ee2 fwd="24.104.249.122" dyno=web.1 connect=1ms service=20ms status=304 bytes=148
+2017-02-20T05:22:04.595892+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=faf62fca-92c7-4bd5-afbd-b0dc3be4b501 fwd="24.104.249.122" dyno=web.1 connect=2ms service=2ms status=304 bytes=237
+2017-02-20T05:22:04.540103+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=3ff0be97-f449-4826-95c4-f5189e143359 fwd="24.104.249.122" dyno=web.1 connect=1ms service=10ms status=200 bytes=5203
+2017-02-20T05:22:04.740905+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=ea88f128-eabb-4388-960f-d276c72a5577 fwd="24.104.249.122" dyno=web.1 connect=1ms service=14ms status=304 bytes=148
+2017-02-20T05:23:05.810988+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T05:23:05.810994+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T05:23:05.698447+00:00 app[api]: Deploy 077962e by user wells.royce@gmail.com
+2017-02-20T05:23:05.698447+00:00 app[api]: Release v7 created by user wells.royce@gmail.com
+2017-02-20T05:23:06.067420+00:00 heroku[web.1]: Restarting
+2017-02-20T05:23:06.068118+00:00 heroku[web.1]: State changed from up to starting
+2017-02-20T05:23:06.576526+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T05:23:06.689379+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T05:23:07.440181+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T05:23:11.277287+00:00 app[web.1]: 
+2017-02-20T05:23:11.277298+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T05:23:11.277299+00:00 app[web.1]: > node server.js
+2017-02-20T05:23:11.277299+00:00 app[web.1]: 
+2017-02-20T05:23:12.392670+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T05:23:12.392685+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T05:23:12.396645+00:00 app[web.1]: Number of reps: 539
+2017-02-20T05:23:12.392686+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T05:23:12.408684+00:00 app[web.1]: Your app is listening on port 45738
+2017-02-20T05:23:12.686447+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T05:23:14.300942+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=f764b3b4-a44c-4a76-9b00-710f6e0a6649 fwd="24.104.249.122" dyno=web.1 connect=0ms service=21ms status=200 bytes=5214
+2017-02-20T05:23:14.369648+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=2de7f8a9-3c1f-414d-9f60-217ae51c9b3c fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=200 bytes=768
+2017-02-20T05:23:14.752194+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=b72f49e8-d8d1-4a99-aedc-6a9b0a642197 fwd="24.104.249.122" dyno=web.1 connect=1ms service=16ms status=304 bytes=148
+2017-02-20T05:23:05.954044+00:00 app[api]: Release v7 created by user wells.royce@gmail.com
+2017-02-20T05:46:45.543348+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T05:46:45.543342+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T05:46:45.398156+00:00 app[api]: Deploy 6e2c3cf by user wells.royce@gmail.com
+2017-02-20T05:46:45.398156+00:00 app[api]: Release v8 created by user wells.royce@gmail.com
+2017-02-20T05:46:46.106224+00:00 heroku[web.1]: Restarting
+2017-02-20T05:46:46.106882+00:00 heroku[web.1]: State changed from up to starting
+2017-02-20T05:46:46.077210+00:00 app[api]: Release v8 created by user wells.royce@gmail.com
+2017-02-20T05:46:46.574748+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T05:46:46.676323+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T05:46:47.185602+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T05:46:48.332214+00:00 app[web.1]: > node server.js
+2017-02-20T05:46:48.332202+00:00 app[web.1]: 
+2017-02-20T05:46:48.332214+00:00 app[web.1]: 
+2017-02-20T05:46:48.332213+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T05:46:49.395451+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T05:46:49.395467+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T05:46:49.395468+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T05:46:49.399733+00:00 app[web.1]: Number of reps: 539
+2017-02-20T05:46:49.411583+00:00 app[web.1]: Your app is listening on port 55178
+2017-02-20T05:46:49.758772+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T05:47:20.142165+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=7d955899-78ac-4d91-8426-4c5a95e12f45 fwd="24.104.249.122" dyno=web.1 connect=0ms service=20ms status=200 bytes=5647
+2017-02-20T05:47:20.214797+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=760e8050-6a3d-496e-a51f-5ad4c312b920 fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=200 bytes=972
+2017-02-20T05:47:20.579708+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=324050f7-4677-4cdc-be25-189c04f7a00f fwd="24.104.249.122" dyno=web.1 connect=0ms service=24ms status=304 bytes=148
+2017-02-20T05:47:22.747814+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=6bacf090-905e-48ff-a079-a39952244bfa fwd="24.104.249.122" dyno=web.1 connect=0ms service=3ms status=200 bytes=3604
+2017-02-20T05:47:22.796253+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=6ede7247-80ca-4235-8c3a-396d75d971b2 fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:47:23.004164+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=e0d3c9d1-7cab-48e1-9c6e-f346cadf47f6 fwd="24.104.249.122" dyno=web.1 connect=0ms service=18ms status=304 bytes=148
+2017-02-20T05:47:22.938479+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=7cdc0e12-8bfb-421c-a6a9-594fd5e9a22f fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=200 bytes=1602
+2017-02-20T05:47:38.682272+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=8d36fe3c-ed3c-4e33-ad6b-4dab9a5a5f80 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T05:47:38.742234+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=f0401f53-6640-4197-b8b8-4264c6fb14fc fwd="24.104.249.122" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2017-02-20T05:47:38.753451+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=783755c2-3eb7-4377-90ef-1f84279108e0 fwd="24.104.249.122" dyno=web.1 connect=0ms service=9ms status=304 bytes=237
+2017-02-20T05:47:38.892734+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=cb6c00d2-888c-4ccf-8c13-5217d175dfcf fwd="24.104.249.122" dyno=web.1 connect=0ms service=14ms status=304 bytes=148
+2017-02-20T05:49:51.474333+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=8c414ed6-17f6-4168-846c-e0bb64e0f30f fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=200 bytes=4934
+2017-02-20T05:49:51.533708+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=7e4cfdd3-3ee2-43a7-ba68-f70352c49629 fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:49:51.960330+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=1c982cd8-2771-4a33-8bd0-422a8191d387 fwd="24.104.249.122" dyno=web.1 connect=0ms service=116ms status=304 bytes=147
+2017-02-20T05:50:05.870567+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=223c280c-a20d-4a4f-af20-3032b83e26f0 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T05:50:05.818005+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=b2043cd9-6e5e-4875-ae8f-4f79a41409f1 fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=304 bytes=237
+2017-02-20T05:50:06.044725+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=a5c56f57-b84d-4038-aad4-7e9cc72c24d1 fwd="24.104.249.122" dyno=web.1 connect=0ms service=15ms status=304 bytes=148
+2017-02-20T05:50:05.890885+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=38d9054c-d38e-4d8b-b615-aebe956c8b1c fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:51:51.018911+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=79ef0f56-8944-4d69-b945-53697ca55078 fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=304 bytes=238
+2017-02-20T05:51:51.081222+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=bb4fc4d2-b8ea-4202-b3c0-d91efe78c7e0 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T05:51:51.389462+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=4bc0f5bd-8f70-4555-b6a8-9331982955e7 fwd="24.104.249.122" dyno=web.1 connect=1ms service=15ms status=304 bytes=148
+2017-02-20T05:52:53.210030+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=f1d8fb42-edc7-4e91-8eb6-9a2de825fc99 fwd="24.104.249.122" dyno=web.1 connect=0ms service=3ms status=200 bytes=5257
+2017-02-20T05:52:53.265628+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=b3e0fe80-1493-4749-afa1-e9ee3dae25bc fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:52:53.639303+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=d432d136-bab1-439d-9df0-3df50011e4c6 fwd="24.104.249.122" dyno=web.1 connect=0ms service=16ms status=304 bytes=148
+2017-02-20T05:52:54.649863+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=81e273bb-06cd-4a12-812d-3339583ea452 fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=238
+2017-02-20T05:52:54.717557+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=c0ba08f7-41c3-4df2-bff9-8e4a975d2935 fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-20T05:52:54.897492+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=37f8f215-aaea-4388-a4a5-6ce43526b7aa fwd="24.104.249.122" dyno=web.1 connect=0ms service=28ms status=304 bytes=148
+2017-02-20T05:53:06.633344+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=74c7913c-37fd-48e9-86fa-08f765414aec fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=238
+2017-02-20T05:53:06.688867+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=0f184cd1-8ec3-4b96-8bfd-45c20b8da777 fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=304 bytes=237
+2017-02-20T05:53:06.888802+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=ef3e82fb-160c-43e5-b62a-51e1e2348124 fwd="24.104.249.122" dyno=web.1 connect=0ms service=88ms status=304 bytes=147
+2017-02-20T05:53:46.674471+00:00 app[api]: Deploy 42f2f3a by user wells.royce@gmail.com
+2017-02-20T05:53:46.674471+00:00 app[api]: Release v9 created by user wells.royce@gmail.com
+2017-02-20T05:53:46.838103+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T05:53:46.838113+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T05:53:47.127916+00:00 app[api]: Release v9 created by user wells.royce@gmail.com
+2017-02-20T05:53:47.181346+00:00 heroku[web.1]: Restarting
+2017-02-20T05:53:47.182000+00:00 heroku[web.1]: State changed from up to starting
+2017-02-20T05:53:47.590320+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T05:53:47.662195+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T05:53:48.530996+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T05:53:51.055633+00:00 app[web.1]: 
+2017-02-20T05:53:51.055649+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T05:53:51.055650+00:00 app[web.1]: > node server.js
+2017-02-20T05:53:51.055650+00:00 app[web.1]: 
+2017-02-20T05:53:52.453022+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T05:53:52.453034+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T05:53:52.453035+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T05:53:52.459491+00:00 app[web.1]: Number of reps: 539
+2017-02-20T05:53:52.471391+00:00 app[web.1]: Your app is listening on port 31801
+2017-02-20T05:53:52.777547+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T05:53:53.872492+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=bf38dd06-51da-468d-8632-85e820417cc5 fwd="24.104.249.122" dyno=web.1 connect=0ms service=25ms status=200 bytes=5640
+2017-02-20T05:53:53.954379+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=ff70726e-9a91-4868-9455-6ad9d96679ff fwd="24.104.249.122" dyno=web.1 connect=1ms service=7ms status=200 bytes=972
+2017-02-20T05:53:54.266361+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=87ed4d0d-abd9-4cf9-b53b-a3ac4c360ce3 fwd="24.104.249.122" dyno=web.1 connect=0ms service=18ms status=304 bytes=148
+2017-02-20T05:53:58.953527+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=0fbd7fd8-dcf8-4bd8-a134-c9638fa83f6a fwd="24.104.249.122" dyno=web.1 connect=1ms service=4ms status=200 bytes=5257
+2017-02-20T05:53:59.010358+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=2274aa29-64bc-43e5-9953-f838694040f6 fwd="24.104.249.122" dyno=web.1 connect=1ms service=6ms status=304 bytes=237
+2017-02-20T05:53:59.172891+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=dfc9fabf-1cc1-476b-a04e-1c15aed82df4 fwd="24.104.249.122" dyno=web.1 connect=0ms service=26ms status=304 bytes=148
+2017-02-20T05:54:00.504379+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=a9dd7262-0824-410b-8d08-0ae638b8d2a6 fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-20T05:54:00.445774+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=2980f79f-a50c-4e8d-b77c-0a6cd2f173c5 fwd="24.104.249.122" dyno=web.1 connect=1ms service=4ms status=200 bytes=3604
+2017-02-20T05:54:00.615018+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=71e57ae9-374e-4466-a1ce-1588f1d28f37 fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=200 bytes=1602
+2017-02-20T05:54:00.678190+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=941db0cb-8cf1-4702-828b-fa590062d4d5 fwd="24.104.249.122" dyno=web.1 connect=1ms service=21ms status=304 bytes=148
+2017-02-20T05:56:06.603760+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=b7818f1a-83c8-47e9-97e5-9c7795472a9e fwd="24.104.249.122" dyno=web.1 connect=1ms service=20ms status=200 bytes=4934
+2017-02-20T05:56:06.662395+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=a2494c09-3569-4127-986f-cec9f1d8f403 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T05:56:06.971249+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=2f96f290-3913-4617-a482-3a776057ed8c fwd="24.104.249.122" dyno=web.1 connect=0ms service=146ms status=304 bytes=147
+2017-02-20T05:56:13.602565+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=8c3636af-4ce7-4f2a-927a-e3c04bb38940 fwd="24.104.249.122" dyno=web.1 connect=1ms service=4ms status=304 bytes=238
+2017-02-20T05:56:13.658400+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=35e4a5d4-63ce-4c81-b84e-e8dde84cffbc fwd="24.104.249.122" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2017-02-20T05:56:13.971791+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=4e642639-c27e-42cd-a6ea-34c2c4ebb483 fwd="24.104.249.122" dyno=web.1 connect=1ms service=172ms status=304 bytes=148
+2017-02-20T05:56:15.659983+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=28435c87-471e-4cec-8f42-274c5e8f3bf7 fwd="24.104.249.122" dyno=web.1 connect=1ms service=5ms status=304 bytes=238
+2017-02-20T05:56:15.712241+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=71d047ba-a38b-47ca-b2cb-695c6b50b635 fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-20T05:56:15.860163+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=e0b05cd9-3a95-465c-8638-4debe85f3967 fwd="24.104.249.122" dyno=web.1 connect=0ms service=26ms status=304 bytes=147
+2017-02-20T05:56:24.227125+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=181c120e-6b95-412c-bbf9-98a5a184f496 fwd="24.104.249.122" dyno=web.1 connect=1ms service=27ms status=304 bytes=237
+2017-02-20T05:56:24.318052+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=d728d23b-aa31-4d1f-9f8b-1acb42732534 fwd="24.104.249.122" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2017-02-20T05:56:24.435074+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=762e6d5f-6d0c-4fce-bab7-6c103d92293e fwd="24.104.249.122" dyno=web.1 connect=1ms service=31ms status=304 bytes=148
+2017-02-20T05:56:24.281574+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=fb0153d5-3b62-4486-becd-d49d5eaa19bf fwd="24.104.249.122" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2017-02-20T05:57:37.018613+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=16844d1a-7a3d-4199-b8bf-f4a2e75c876a fwd="107.77.76.79" dyno=web.1 connect=0ms service=5ms status=200 bytes=3604
+2017-02-20T05:57:37.109823+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=396fc3e8-d86f-4ce8-809e-feb84ead43a0 fwd="107.77.76.79" dyno=web.1 connect=0ms service=3ms status=200 bytes=972
+2017-02-20T05:57:46.256852+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=fd8c0bc2-19d0-4ba0-9492-9ed47eda52c2 fwd="107.77.76.79" dyno=web.1 connect=1ms service=4ms status=200 bytes=3604
+2017-02-20T05:57:46.340180+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=b786f28f-7f3d-44fd-bc8d-75815c681e7c fwd="107.77.76.79" dyno=web.1 connect=1ms service=7ms status=304 bytes=237
+2017-02-20T05:57:46.390798+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=fa59c1d6-a9f3-4b9f-bcb9-9a4787430187 fwd="107.77.76.79" dyno=web.1 connect=1ms service=4ms status=200 bytes=1602
+2017-02-20T05:57:46.571118+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=71a6ad5c-0515-4685-895a-c88361f5d9e5 fwd="107.77.76.79" dyno=web.1 connect=1ms service=77ms status=200 bytes=972936
+2017-02-20T05:57:57.351749+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=c313c197-c980-4c1d-bf22-e8ef880d2d05 fwd="107.77.76.79" dyno=web.1 connect=0ms service=6ms status=200 bytes=4934
+2017-02-20T05:57:57.465699+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=a1340d07-189e-4680-acf4-d606db437cbe fwd="107.77.76.79" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-20T05:57:57.661387+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=59845b0f-69c6-4691-9f01-e79655ecef81 fwd="107.77.76.79" dyno=web.1 connect=1ms service=77ms status=200 bytes=49347
+2017-02-20T05:58:42.363669+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=8c3e7e8c-0c3a-4b99-8cf3-75dd4def783b fwd="107.77.76.79" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T05:58:42.368113+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=aff32b94-3aeb-4b6f-8349-5421509ca712 fwd="107.77.76.79" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T05:58:42.462972+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=819963b2-0745-4eb8-9e2c-b9995e41384c fwd="107.77.76.79" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T05:58:42.640992+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=ca3ab856-7b8f-4cde-b10b-c9bde7d1765f fwd="107.77.76.79" dyno=web.1 connect=1ms service=44ms status=304 bytes=148
+2017-02-20T05:58:45.371525+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=88cd87d2-3401-4a78-8b98-448ea695e344 fwd="107.77.76.79" dyno=web.1 connect=2ms service=3ms status=200 bytes=5640
+2017-02-20T05:58:45.636242+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=afbddd3e-2a15-4259-b2e0-46b201b279f5 fwd="107.77.76.79" dyno=web.1 connect=0ms service=36ms status=304 bytes=148
+2017-02-20T05:58:45.482070+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=f52855b6-31ef-4df9-adea-c50d422ced76 fwd="107.77.76.79" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T06:30:51.084453+00:00 heroku[web.1]: Idling
+2017-02-20T06:30:51.085300+00:00 heroku[web.1]: State changed from up to down
+2017-02-20T06:30:51.953469+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T06:30:52.304627+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T13:39:58.263274+00:00 heroku[web.1]: Unidling
+2017-02-20T13:39:58.263624+00:00 heroku[web.1]: State changed from down to starting
+2017-02-20T13:39:59.471730+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T13:40:01.931375+00:00 app[web.1]: 
+2017-02-20T13:40:01.931391+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T13:40:01.931392+00:00 app[web.1]: > node server.js
+2017-02-20T13:40:01.931393+00:00 app[web.1]: 
+2017-02-20T13:40:03.067530+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T13:40:03.067548+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T13:40:03.067549+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T13:40:03.071566+00:00 app[web.1]: Number of reps: 539
+2017-02-20T13:40:03.084030+00:00 app[web.1]: Your app is listening on port 52659
+2017-02-20T13:40:03.670231+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T13:40:04.376102+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=04269f3f-0538-464f-9cf7-eb4d663535d6 fwd="24.104.249.122" dyno=web.1 connect=1ms service=22ms status=200 bytes=3604
+2017-02-20T13:40:04.425697+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=25bd93ec-afa4-4387-ba4f-f22f077920b8 fwd="24.104.249.122" dyno=web.1 connect=1ms service=7ms status=200 bytes=972
+2017-02-20T13:40:04.452667+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=50afe55a-abec-42dd-82d1-bd76fb4403a1 fwd="24.104.249.122" dyno=web.1 connect=3ms service=4ms status=200 bytes=1602
+2017-02-20T13:40:04.722168+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=3786262d-6174-4694-ad2d-904cfb421c4d fwd="24.104.249.122" dyno=web.1 connect=0ms service=44ms status=200 bytes=972936
+2017-02-20T14:08:56.313762+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=a2a2fe51-c455-4764-b9ba-0ecfb619b1cc fwd="107.77.70.61" dyno=web.1 connect=1ms service=6ms status=200 bytes=3604
+2017-02-20T14:08:56.471896+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=8b6f452f-f448-4a8e-a7e2-0be94c79f1dd fwd="107.77.70.61" dyno=web.1 connect=1ms service=4ms status=200 bytes=972
+2017-02-20T14:08:56.512778+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=9796472c-8f6b-437f-9382-70a4761a715d fwd="107.77.70.61" dyno=web.1 connect=2ms service=3ms status=200 bytes=1602
+2017-02-20T14:08:57.154400+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=599ff4fb-1b32-432e-999d-fd01d84ea483 fwd="107.77.70.61" dyno=web.1 connect=1ms service=94ms status=200 bytes=972936
+2017-02-20T14:09:14.472172+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=6feb8637-f6ea-4c7a-af15-371a2c9200bc fwd="107.77.70.61" dyno=web.1 connect=2ms service=5ms status=304 bytes=237
+2017-02-20T14:09:14.367646+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=4775590d-1205-4669-adab-73868368d937 fwd="107.77.70.61" dyno=web.1 connect=2ms service=20ms status=200 bytes=4934
+2017-02-20T14:09:14.733669+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=2faa42f7-91a4-474c-a445-739487260843 fwd="107.77.70.61" dyno=web.1 connect=1ms service=187ms status=200 bytes=49347
+2017-02-20T14:10:52.576827+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=c5cf8e04-f418-493d-a35a-77edaff3b1f5 fwd="107.77.70.61" dyno=web.1 connect=1ms service=4ms status=200 bytes=5640
+2017-02-20T14:10:52.680814+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=33805680-4651-4e5f-8fbf-8f6aef3246fa fwd="107.77.70.61" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T14:10:52.792711+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=7affba7a-cc80-4ccc-9539-47f06872f1f7 fwd="107.77.70.61" dyno=web.1 connect=2ms service=26ms status=304 bytes=148
+2017-02-20T14:11:10.806824+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=e97b1140-de7e-41b2-8ac3-88b9b2346d18 fwd="107.77.70.61" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2017-02-20T14:11:11.082818+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=0dcc4136-2473-4a1c-a66f-ebbb0f46ef85 fwd="107.77.70.61" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T14:11:10.965657+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=534a159b-1802-495c-9bc1-491a5a71e694 fwd="107.77.70.61" dyno=web.1 connect=0ms service=5ms status=304 bytes=237
+2017-02-20T14:11:11.243809+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=f7c254bb-7d8b-4ed8-a1ff-c3ed9c26fb34 fwd="107.77.70.61" dyno=web.1 connect=0ms service=35ms status=304 bytes=148
+2017-02-20T14:12:32.862909+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=707cd26a-a4d0-4d40-ba68-5069cbb77368 fwd="107.77.70.61" dyno=web.1 connect=1ms service=6ms status=200 bytes=3604
+2017-02-20T14:12:32.979039+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=75faa016-3641-494b-9bfa-5c8823a72ef6 fwd="107.77.70.61" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-20T14:12:33.031862+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=b5f16304-7343-49f5-b46d-44c1828d8038 fwd="107.77.70.61" dyno=web.1 connect=2ms service=3ms status=304 bytes=237
+2017-02-20T14:12:33.535963+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=b2a21747-fc94-464d-81e6-8e5cab54f67a fwd="107.77.70.61" dyno=web.1 connect=1ms service=39ms status=304 bytes=148
+2017-02-20T14:48:04.586531+00:00 heroku[web.1]: Idling
+2017-02-20T14:48:04.587011+00:00 heroku[web.1]: State changed from up to down
+2017-02-20T14:48:05.165421+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T14:48:05.332391+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T17:00:59.358798+00:00 heroku[web.1]: Unidling
+2017-02-20T17:00:59.359056+00:00 heroku[web.1]: State changed from down to starting
+2017-02-20T17:01:01.081007+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T17:01:03.714882+00:00 app[web.1]: 
+2017-02-20T17:01:03.714895+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T17:01:03.714896+00:00 app[web.1]: > node server.js
+2017-02-20T17:01:03.714897+00:00 app[web.1]: 
+2017-02-20T17:01:04.910014+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T17:01:04.910024+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T17:01:04.910026+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T17:01:04.914480+00:00 app[web.1]: Number of reps: 539
+2017-02-20T17:01:04.926604+00:00 app[web.1]: Your app is listening on port 6994
+2017-02-20T17:01:05.426414+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T17:01:06.473892+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=3e43d3a6-14ad-40dc-b764-c5430eed8862 fwd="162.242.156.106" dyno=web.1 connect=2ms service=34ms status=200 bytes=3604
+2017-02-20T17:04:21.780790+00:00 app[web.1]: /app/server.js:85
+2017-02-20T17:04:21.780802+00:00 app[web.1]:           res.json(JSON.parse(body)._links.self);
+2017-02-20T17:04:21.780803+00:00 app[web.1]:                                           ^
+2017-02-20T17:04:21.780804+00:00 app[web.1]: 
+2017-02-20T17:04:21.780804+00:00 app[web.1]: TypeError: Cannot read property 'self' of undefined
+2017-02-20T17:04:21.780805+00:00 app[web.1]:     at Request._callback (/app/server.js:85:43)
+2017-02-20T17:04:21.780806+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/request/request.js:186:22)
+2017-02-20T17:04:21.780807+00:00 app[web.1]:     at emitTwo (events.js:106:13)
+2017-02-20T17:04:21.780808+00:00 app[web.1]:     at Request.emit (events.js:191:7)
+2017-02-20T17:04:21.780808+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/request/request.js:1081:10)
+2017-02-20T17:04:21.780809+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-20T17:04:21.780810+00:00 app[web.1]:     at Request.emit (events.js:188:7)
+2017-02-20T17:04:21.780814+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/request/request.js:1001:12)
+2017-02-20T17:04:21.780814+00:00 app[web.1]:     at IncomingMessage.g (events.js:291:16)
+2017-02-20T17:04:21.780815+00:00 app[web.1]:     at emitNone (events.js:91:20)
+2017-02-20T17:04:21.794100+00:00 app[web.1]: 
+2017-02-20T17:04:21.806707+00:00 app[web.1]: npm ERR! Linux 3.13.0-105-generic
+2017-02-20T17:04:21.807034+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2017-02-20T17:04:21.807578+00:00 app[web.1]: npm ERR! npm  v3.10.10
+2017-02-20T17:04:21.807325+00:00 app[web.1]: npm ERR! node v6.9.5
+2017-02-20T17:04:21.807835+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2017-02-20T17:04:21.808057+00:00 app[web.1]: npm ERR! my-reps@0.0.4 start: `node server.js`
+2017-02-20T17:04:21.808238+00:00 app[web.1]: npm ERR! Exit status 1
+2017-02-20T17:04:21.808439+00:00 app[web.1]: npm ERR! 
+2017-02-20T17:04:21.808633+00:00 app[web.1]: npm ERR! Failed at the my-reps@0.0.4 start script 'node server.js'.
+2017-02-20T17:04:21.808809+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2017-02-20T17:04:21.810957+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the my-reps package,
+2017-02-20T17:04:21.811139+00:00 app[web.1]: npm ERR! not with npm itself.
+2017-02-20T17:04:21.811336+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2017-02-20T17:04:21.811533+00:00 app[web.1]: npm ERR!     node server.js
+2017-02-20T17:04:21.811689+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2017-02-20T17:04:21.811871+00:00 app[web.1]: npm ERR!     npm bugs my-reps
+2017-02-20T17:04:21.812250+00:00 app[web.1]: npm ERR!     npm owner ls my-reps
+2017-02-20T17:04:21.812052+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2017-02-20T17:04:21.812432+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2017-02-20T17:04:21.857032+00:00 app[web.1]: 
+2017-02-20T17:04:21.857378+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2017-02-20T17:04:21.857543+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2017-02-20T17:04:21.791309+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/zip?zip=10040" host=app.yourgov.us request_id=8b0dd9d8-e024-4b62-9fa4-c54afdc9c705 fwd="24.104.249.122" dyno=web.1 connect=0ms service=257ms status=503 bytes=0
+2017-02-20T17:04:21.971945+00:00 heroku[web.1]: State changed from up to crashed
+2017-02-20T17:04:21.973032+00:00 heroku[web.1]: State changed from crashed to starting
+2017-02-20T17:04:21.944966+00:00 heroku[web.1]: Process exited with status 1
+2017-02-20T17:04:23.719318+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T17:04:27.338434+00:00 app[web.1]: 
+2017-02-20T17:04:27.338448+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T17:04:27.338449+00:00 app[web.1]: > node server.js
+2017-02-20T17:04:27.338450+00:00 app[web.1]: 
+2017-02-20T17:04:29.423891+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T17:04:29.423900+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T17:04:29.423902+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T17:04:29.434738+00:00 app[web.1]: Number of reps: 539
+2017-02-20T17:04:29.456074+00:00 app[web.1]: Your app is listening on port 5498
+2017-02-20T17:04:29.879331+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T17:37:59.571450+00:00 heroku[web.1]: Idling
+2017-02-20T17:37:59.571450+00:00 heroku[web.1]: State changed from up to down
+2017-02-20T17:38:00.218343+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T17:38:00.400153+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T18:32:26.785246+00:00 app[api]: Deploy 1bc9cba by user wells.royce@gmail.com
+2017-02-20T18:32:26.785246+00:00 app[api]: Release v10 created by user wells.royce@gmail.com
+2017-02-20T18:32:26.970167+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T18:32:26.970176+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T18:32:28.112852+00:00 app[api]: Release v10 created by user wells.royce@gmail.com
+2017-02-20T18:32:28.568416+00:00 heroku[web.1]: State changed from down to starting
+2017-02-20T18:32:29.856525+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T18:32:32.083160+00:00 app[web.1]: 
+2017-02-20T18:32:32.083175+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T18:32:32.083176+00:00 app[web.1]: > node server.js
+2017-02-20T18:32:32.083177+00:00 app[web.1]: 
+2017-02-20T18:32:33.399408+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T18:32:33.399426+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T18:32:33.399428+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T18:32:33.404569+00:00 app[web.1]: Number of reps: 539
+2017-02-20T18:32:33.418522+00:00 app[web.1]: Your app is listening on port 17163
+2017-02-20T18:32:33.713466+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T18:32:34.158480+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=6070dc0d-5100-44c1-b36f-1d9c930b1785 fwd="24.104.249.122" dyno=web.1 connect=1ms service=21ms status=200 bytes=3718
+2017-02-20T18:32:34.307060+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=81d054d6-5036-4c04-9b28-c5a4e06ced03 fwd="24.104.249.122" dyno=web.1 connect=1ms service=6ms status=200 bytes=1034
+2017-02-20T18:32:35.351416+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=0e233122-947c-499d-aa91-d04033b8bc36 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=200 bytes=1602
+2017-02-20T18:32:35.448087+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=a8127e1f-3d37-4a88-aff7-3ed597824576 fwd="24.104.249.122" dyno=web.1 connect=1ms service=24ms status=304 bytes=148
+2017-02-20T18:32:36.837706+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=85143280-224f-463c-86ce-c228e06cc96b fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=200 bytes=6950
+2017-02-20T18:32:36.898596+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=8b7a7a36-c937-4d43-beba-03e6b3be8e17 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T18:32:37.035623+00:00 app[web.1]: get this req: undefined
+2017-02-20T18:32:37.202036+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=01f82869-c8e8-4fee-b314-d2288f625846 fwd="24.104.249.122" dyno=web.1 connect=1ms service=165ms status=200 bytes=219
+2017-02-20T18:32:39.719191+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=10040" host=app.yourgov.us request_id=0cdd9f79-978b-493d-ac59-810f5e015f92 fwd="24.104.249.122" dyno=web.1 connect=1ms service=38ms status=200 bytes=2873
+2017-02-20T18:32:39.681051+00:00 app[web.1]: post of this req: 10040
+2017-02-20T18:36:21.360027+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=358b9162-d50e-476f-bfde-0555e65d474d fwd="107.77.70.60" dyno=web.1 connect=1ms service=5ms status=200 bytes=1034
+2017-02-20T18:38:45.987529+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=74746568-2730-4683-a169-c3622a923574 fwd="24.104.249.122" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2017-02-20T18:43:54.622916+00:00 app[api]: Release v11 created by user wells.royce@gmail.com
+2017-02-20T18:43:54.622916+00:00 app[api]: Deploy 5ef11ff by user wells.royce@gmail.com
+2017-02-20T18:43:54.754114+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-20T18:43:54.754120+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-20T18:43:54.874972+00:00 app[api]: Release v11 created by user wells.royce@gmail.com
+2017-02-20T18:43:55.274277+00:00 heroku[web.1]: Restarting
+2017-02-20T18:43:55.274892+00:00 heroku[web.1]: State changed from up to starting
+2017-02-20T18:43:55.769644+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T18:43:55.933026+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T18:43:56.887313+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-20T18:43:59.611942+00:00 app[web.1]: 
+2017-02-20T18:43:59.611954+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T18:43:59.611955+00:00 app[web.1]: > node server.js
+2017-02-20T18:43:59.611956+00:00 app[web.1]: 
+2017-02-20T18:44:00.713507+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T18:44:00.713522+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T18:44:00.713524+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T18:44:00.717754+00:00 app[web.1]: Number of reps: 539
+2017-02-20T18:44:00.729909+00:00 app[web.1]: Your app is listening on port 3658
+2017-02-20T18:44:01.284253+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T18:51:07.407174+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=8998ddff-c546-48ec-b292-b392fb6190f8 fwd="166.137.252.59" dyno=web.1 connect=1ms service=24ms status=200 bytes=3718
+2017-02-20T18:51:07.546549+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=33724521-668f-4a84-b1b4-b72eb31a5928 fwd="166.137.252.59" dyno=web.1 connect=0ms service=7ms status=200 bytes=1115
+2017-02-20T18:51:07.583588+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=64c65fed-aec7-4e27-ab07-55856f2009d0 fwd="166.137.252.59" dyno=web.1 connect=1ms service=4ms status=200 bytes=1602
+2017-02-20T18:51:07.853218+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=592c065f-1157-41e3-9475-0da398ba1dde fwd="166.137.252.59" dyno=web.1 connect=1ms service=39ms status=304 bytes=148
+2017-02-20T18:51:09.943587+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=eaa99d06-0720-480a-ab41-18024121dc36 fwd="166.137.252.59" dyno=web.1 connect=0ms service=4ms status=200 bytes=7088
+2017-02-20T18:51:10.096589+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=d9f399f3-d02a-4473-9fce-a2d92416b448 fwd="166.137.252.59" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-20T18:51:10.611075+00:00 app[web.1]: get this req: undefined
+2017-02-20T18:51:10.910992+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=a032344b-52ba-4f79-99c9-2041c76c1c33 fwd="166.137.252.59" dyno=web.1 connect=0ms service=299ms status=200 bytes=219
+2017-02-20T18:51:27.268514+00:00 app[web.1]: post of this req: 10040
+2017-02-20T18:51:27.464523+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=10040" host=app.yourgov.us request_id=8f369234-4b9a-46e5-8e31-469680100d73 fwd="166.137.252.59" dyno=web.1 connect=1ms service=198ms status=200 bytes=2873
+2017-02-20T18:52:22.663629+00:00 app[web.1]: post of this req: 91320
+2017-02-20T18:52:22.832570+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=91320" host=app.yourgov.us request_id=ec67a65a-424a-4a45-b2a6-5cd7ce190b51 fwd="166.137.252.59" dyno=web.1 connect=1ms service=168ms status=200 bytes=2792
+2017-02-20T19:26:01.626019+00:00 heroku[web.1]: Idling
+2017-02-20T19:26:01.626019+00:00 heroku[web.1]: State changed from up to down
+2017-02-20T19:26:02.270682+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-20T19:26:02.386950+00:00 heroku[web.1]: Process exited with status 143
+2017-02-20T23:24:59.918683+00:00 heroku[web.1]: Unidling
+2017-02-20T23:24:59.919020+00:00 heroku[web.1]: State changed from down to starting
+2017-02-20T23:25:04.433523+00:00 app[web.1]: 
+2017-02-20T23:25:04.433535+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-20T23:25:04.433536+00:00 app[web.1]: > node server.js
+2017-02-20T23:25:04.433537+00:00 app[web.1]: 
+2017-02-20T23:25:05.551043+00:00 heroku[web.1]: State changed from starting to up
+2017-02-20T23:25:05.459388+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-20T23:25:05.459396+00:00 app[web.1]:   last: 'Brown',
+2017-02-20T23:25:05.459397+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-20T23:25:05.463820+00:00 app[web.1]: Number of reps: 539
+2017-02-20T23:25:05.475664+00:00 app[web.1]: Your app is listening on port 56352
+2017-02-20T23:25:05.968932+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=36462a5c-3cb8-43b6-b3ea-dfc1252452c9 fwd="24.104.249.122" dyno=web.1 connect=0ms service=20ms status=200 bytes=3718
+2017-02-20T23:25:06.284146+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=9366f9af-26a2-46ea-9077-42c62453106b fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=200 bytes=1602
+2017-02-20T23:25:06.267860+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=0d6d7aa1-895f-475b-af40-f7b9f136c866 fwd="24.104.249.122" dyno=web.1 connect=0ms service=8ms status=200 bytes=1115
+2017-02-20T23:25:08.092130+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=b3fb28c5-6a3c-4f64-8545-6e657a68b5a2 fwd="24.104.249.122" dyno=web.1 connect=0ms service=19ms status=304 bytes=148
+2017-02-20T23:25:12.358027+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=8b6a4198-dbd4-4469-a56a-eb4a28e8b276 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=200 bytes=7088
+2017-02-20T23:25:12.770448+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=b5f14e6c-e2f7-4def-932d-5b7d7310482d fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-20T23:25:13.733008+00:00 app[web.1]: get this req: undefined
+2017-02-20T23:25:13.893987+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=61db4ec3-733c-4345-8926-7b8235984a42 fwd="24.104.249.122" dyno=web.1 connect=0ms service=163ms status=200 bytes=219
+2017-02-20T23:25:20.111194+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=10040" host=app.yourgov.us request_id=9f09e5e8-6a6f-4123-819f-bae7f25a604e fwd="24.104.249.122" dyno=web.1 connect=0ms service=90ms status=200 bytes=2873
+2017-02-20T23:25:20.023447+00:00 app[web.1]: post of this req: 10040
+2017-02-20T23:26:18.293971+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94608" host=app.yourgov.us request_id=2e797f64-1c86-4017-8129-9d17dbd2166c fwd="24.104.249.122" dyno=web.1 connect=0ms service=160ms status=200 bytes=2751
+2017-02-20T23:26:18.149983+00:00 app[web.1]: post of this req: 94608
+2017-02-20T23:26:35.618858+00:00 app[web.1]: post of this req: 30305
+2017-02-20T23:26:35.710644+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=30305" host=app.yourgov.us request_id=741fa57d-6cd3-414c-8dfb-df113a6428ae fwd="24.104.249.122" dyno=web.1 connect=1ms service=115ms status=200 bytes=3601
+2017-02-20T23:27:01.025827+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=10027" host=app.yourgov.us request_id=f7724fbd-490c-4ff4-b3ac-5bf1bed6bd79 fwd="24.104.249.122" dyno=web.1 connect=0ms service=85ms status=200 bytes=3673
+2017-02-20T23:27:00.945311+00:00 app[web.1]: post of this req: 10027
+2017-02-21T00:00:43.627322+00:00 heroku[web.1]: Idling
+2017-02-21T00:00:43.627740+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T00:00:44.334427+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T00:00:44.536731+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T00:34:57.997508+00:00 heroku[web.1]: Unidling
+2017-02-21T00:34:57.997930+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T00:34:59.279442+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T00:35:01.964142+00:00 app[web.1]: 
+2017-02-21T00:35:01.964152+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T00:35:01.964153+00:00 app[web.1]: > node server.js
+2017-02-21T00:35:01.964154+00:00 app[web.1]: 
+2017-02-21T00:35:03.088588+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T00:35:03.088604+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T00:35:03.088605+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T00:35:03.094497+00:00 app[web.1]: Number of reps: 539
+2017-02-21T00:35:03.106617+00:00 app[web.1]: Your app is listening on port 32854
+2017-02-21T00:35:03.386703+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T00:35:05.112825+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=2d39f637-8752-4a79-8c88-96672b4831c8 fwd="167.114.228.206" dyno=web.1 connect=1ms service=22ms status=200 bytes=3718
+2017-02-21T01:08:53.465303+00:00 heroku[web.1]: Idling
+2017-02-21T01:08:53.465800+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T01:08:54.067793+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T01:08:54.241749+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T01:45:04.701496+00:00 heroku[web.1]: Unidling
+2017-02-21T01:45:04.701759+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T01:45:06.107428+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T01:45:08.748382+00:00 app[web.1]: 
+2017-02-21T01:45:08.748400+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T01:45:08.748401+00:00 app[web.1]: > node server.js
+2017-02-21T01:45:08.748402+00:00 app[web.1]: 
+2017-02-21T01:45:10.055129+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T01:45:10.055151+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T01:45:10.055153+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T01:45:10.060573+00:00 app[web.1]: Number of reps: 539
+2017-02-21T01:45:10.078079+00:00 app[web.1]: Your app is listening on port 32472
+2017-02-21T01:45:10.308471+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T01:45:11.786132+00:00 heroku[router]: at=info method=HEAD path="/" host=www.yourgov.us request_id=ece95fac-80b8-4a45-8a08-4bfc212a12e2 fwd="206.225.80.193" dyno=web.1 connect=1ms service=22ms status=200 bytes=289
+2017-02-21T01:46:38.531903+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=75c05650-b10a-4219-a135-6fe6c6aeb0e3 fwd="173.252.84.199" dyno=web.1 connect=1ms service=23ms status=206 bytes=3765
+2017-02-21T02:18:45.134823+00:00 heroku[web.1]: Idling
+2017-02-21T02:18:45.135309+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T02:18:45.616259+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T02:18:45.796249+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T03:00:35.213829+00:00 heroku[web.1]: Unidling
+2017-02-21T03:00:35.214186+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T03:00:37.153482+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T03:00:40.851060+00:00 app[web.1]: 
+2017-02-21T03:00:40.851086+00:00 app[web.1]: > node server.js
+2017-02-21T03:00:40.851085+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T03:00:40.851087+00:00 app[web.1]: 
+2017-02-21T03:00:43.097993+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T03:00:43.098005+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T03:00:43.098006+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T03:00:43.106427+00:00 app[web.1]: Number of reps: 539
+2017-02-21T03:00:43.126830+00:00 app[web.1]: Your app is listening on port 29373
+2017-02-21T03:00:43.667783+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T03:00:45.334233+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=be831d98-968d-4d80-a42b-76eb1bbbca3e fwd="158.69.229.134" dyno=web.1 connect=0ms service=62ms status=200 bytes=3718
+2017-02-21T03:36:02.505330+00:00 heroku[web.1]: Idling
+2017-02-21T03:36:02.505946+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T03:36:03.530059+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T03:36:03.802277+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T09:23:06.569280+00:00 heroku[web.1]: Unidling
+2017-02-21T09:23:06.569577+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T09:23:08.151120+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T09:23:11.394563+00:00 app[web.1]: 
+2017-02-21T09:23:11.394577+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T09:23:11.394578+00:00 app[web.1]: > node server.js
+2017-02-21T09:23:11.394579+00:00 app[web.1]: 
+2017-02-21T09:23:13.196656+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T09:23:13.196666+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T09:23:13.196667+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T09:23:13.208881+00:00 app[web.1]: Number of reps: 539
+2017-02-21T09:23:13.226748+00:00 app[web.1]: Your app is listening on port 41585
+2017-02-21T09:23:13.859081+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T09:23:15.636515+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=6c93d2c3-8c15-4dec-bbd3-7e8c03ba489e fwd="50.117.89.222" dyno=web.1 connect=0ms service=24ms status=200 bytes=3718
+2017-02-21T09:56:48.278815+00:00 heroku[web.1]: Idling
+2017-02-21T09:56:48.279311+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T09:56:49.126494+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T09:56:49.310670+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T11:50:13.041654+00:00 heroku[web.1]: Unidling
+2017-02-21T11:50:13.041974+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T11:50:14.547970+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T11:50:17.132741+00:00 app[web.1]: 
+2017-02-21T11:50:17.132754+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T11:50:17.132755+00:00 app[web.1]: > node server.js
+2017-02-21T11:50:17.132755+00:00 app[web.1]: 
+2017-02-21T11:50:18.329712+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T11:50:18.329730+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T11:50:18.329731+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T11:50:18.346248+00:00 app[web.1]: Your app is listening on port 4025
+2017-02-21T11:50:18.334195+00:00 app[web.1]: Number of reps: 539
+2017-02-21T11:50:18.930706+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T11:50:20.125407+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=2611d98c-29b8-4763-a6fa-2a880ccb0c67 fwd="50.117.89.222" dyno=web.1 connect=0ms service=22ms status=200 bytes=3718
+2017-02-21T12:25:02.398711+00:00 heroku[web.1]: Idling
+2017-02-21T12:25:02.399286+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T12:25:03.090294+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T12:25:03.194376+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T14:45:43.479361+00:00 heroku[web.1]: Unidling
+2017-02-21T14:45:43.479605+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T14:45:44.862176+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T14:45:47.137730+00:00 app[web.1]: 
+2017-02-21T14:45:47.137743+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T14:45:47.137743+00:00 app[web.1]: > node server.js
+2017-02-21T14:45:47.137744+00:00 app[web.1]: 
+2017-02-21T14:45:48.341597+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T14:45:48.341615+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T14:45:48.341617+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T14:45:48.346415+00:00 app[web.1]: Number of reps: 539
+2017-02-21T14:45:48.359891+00:00 app[web.1]: Your app is listening on port 28661
+2017-02-21T14:45:48.708489+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T14:45:49.521692+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=11367497-8aea-45ae-9cd2-74b259db9c45 fwd="45.35.167.70" dyno=web.1 connect=0ms service=21ms status=200 bytes=3718
+2017-02-21T14:45:51.071364+00:00 heroku[router]: at=info method=GET path="/client.js" host=www.yourgov.us request_id=434e3c01-99ed-462f-979a-334404117b00 fwd="45.35.167.95" dyno=web.1 connect=0ms service=11ms status=200 bytes=1602
+2017-02-21T15:21:23.747561+00:00 heroku[web.1]: Idling
+2017-02-21T15:21:23.748171+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T15:21:24.569707+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T15:21:24.838932+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T16:24:29.788197+00:00 heroku[web.1]: Unidling
+2017-02-21T16:24:29.788483+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T16:24:31.779199+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T16:24:35.054644+00:00 app[web.1]: 
+2017-02-21T16:24:35.054655+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T16:24:35.054656+00:00 app[web.1]: > node server.js
+2017-02-21T16:24:35.054656+00:00 app[web.1]: 
+2017-02-21T16:24:36.911570+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T16:24:36.911582+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T16:24:36.911584+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T16:24:36.917909+00:00 app[web.1]: Number of reps: 539
+2017-02-21T16:24:36.933367+00:00 app[web.1]: Your app is listening on port 9416
+2017-02-21T16:24:37.449929+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T16:24:38.845935+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=e6595f1b-9914-4bad-816c-2f3bb7d5f2c3 fwd="24.104.249.122" dyno=web.1 connect=0ms service=23ms status=304 bytes=237
+2017-02-21T16:24:38.970570+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=1495df8e-3a84-4d1b-8eaf-02d29965b00c fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-21T16:24:38.935452+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=f1f7140b-f3e4-4b74-962e-daa5ee617718 fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=304 bytes=237
+2017-02-21T16:24:39.316171+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=757cf3e8-e3a5-466a-a62b-0e8be9642ab5 fwd="24.104.249.122" dyno=web.1 connect=0ms service=25ms status=304 bytes=148
+2017-02-21T16:27:22.000000+00:00 app[api]: Build started by user wells.royce@gmail.com
+2017-02-21T16:27:30.035266+00:00 app[api]: Deploy 9910760 by user wells.royce@gmail.com
+2017-02-21T16:27:30.035266+00:00 app[api]: Release v12 created by user wells.royce@gmail.com
+2017-02-21T16:27:30.261238+00:00 heroku[web.1]: Restarting
+2017-02-21T16:27:30.261700+00:00 heroku[web.1]: State changed from up to starting
+2017-02-21T16:27:30.201131+00:00 app[api]: Release v12 created by user wells.royce@gmail.com
+2017-02-21T16:27:22.000000+00:00 app[api]: Build succeeded
+2017-02-21T16:27:31.059858+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T16:27:31.213935+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T16:27:31.992462+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T16:27:34.576648+00:00 app[web.1]: 
+2017-02-21T16:27:34.576667+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T16:27:34.576668+00:00 app[web.1]: > node server.js
+2017-02-21T16:27:34.576668+00:00 app[web.1]: 
+2017-02-21T16:27:35.997789+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T16:27:35.997811+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T16:27:36.015227+00:00 app[web.1]: Your app is listening on port 27543
+2017-02-21T16:27:35.997810+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T16:27:36.002348+00:00 app[web.1]: Number of reps: 539
+2017-02-21T16:27:36.217191+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T16:27:56.830309+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=d1f769ce-cbfd-42f4-b49c-bf410793cc04 fwd="24.104.249.122" dyno=web.1 connect=2ms service=40ms status=200 bytes=4169
+2017-02-21T16:27:56.913253+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=77217e03-2f24-4820-bac3-eb945e03ad9f fwd="24.104.249.122" dyno=web.1 connect=1ms service=11ms status=200 bytes=1115
+2017-02-21T16:27:56.913974+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=49bfc256-5c9c-49fa-96f2-8cd21819fceb fwd="24.104.249.122" dyno=web.1 connect=1ms service=7ms status=200 bytes=1602
+2017-02-21T16:27:57.207690+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=aac8625b-f89c-47f2-a94a-f187c289eb2d fwd="24.104.249.122" dyno=web.1 connect=1ms service=41ms status=304 bytes=148
+2017-02-21T16:28:10.751713+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=0ba2fee6-a45a-421e-a772-5f6313b53c04 fwd="24.104.249.122" dyno=web.1 connect=1ms service=19ms status=200 bytes=7539
+2017-02-21T16:28:10.822479+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=76e46f76-bd0b-4f1b-82f7-15a6385f1d9d fwd="24.104.249.122" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2017-02-21T16:28:11.315122+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=2a9abbb2-d451-4272-8046-c1e62b3338dc fwd="24.104.249.122" dyno=web.1 connect=1ms service=159ms status=304 bytes=145
+2017-02-21T16:28:11.163809+00:00 app[web.1]: get this req: undefined
+2017-02-21T16:34:08.255079+00:00 app[web.1]: post of this req: 10040
+2017-02-21T16:34:08.801288+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=10040" host=app.yourgov.us request_id=0c925524-df7f-4b88-b821-57adbb51eccf fwd="24.104.249.122" dyno=web.1 connect=1ms service=552ms status=200 bytes=2873
+2017-02-21T17:09:45.455016+00:00 heroku[web.1]: Idling
+2017-02-21T17:09:45.455411+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T17:09:46.242688+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T17:09:46.524725+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T18:10:12.057107+00:00 heroku[web.1]: Unidling
+2017-02-21T18:10:12.057107+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T18:10:13.482700+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T18:10:15.526367+00:00 app[web.1]: 
+2017-02-21T18:10:15.526380+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T18:10:15.526381+00:00 app[web.1]: > node server.js
+2017-02-21T18:10:15.526381+00:00 app[web.1]: 
+2017-02-21T18:10:16.588932+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T18:10:16.588948+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T18:10:16.588950+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T18:10:16.593352+00:00 app[web.1]: Number of reps: 539
+2017-02-21T18:10:16.605533+00:00 app[web.1]: Your app is listening on port 14472
+2017-02-21T18:10:16.764323+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T18:10:18.087548+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=0d2b715e-42aa-4cff-8d0a-43965d0b374d fwd="104.238.248.15" dyno=web.1 connect=0ms service=20ms status=200 bytes=4169
+2017-02-21T18:46:13.852457+00:00 heroku[web.1]: Idling
+2017-02-21T18:46:13.852971+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T18:46:14.620769+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T18:46:14.776537+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T20:22:05.376531+00:00 heroku[web.1]: Unidling
+2017-02-21T20:22:05.376813+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T20:22:06.801697+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T20:22:09.681154+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T20:22:09.681155+00:00 app[web.1]: > node server.js
+2017-02-21T20:22:09.681156+00:00 app[web.1]: 
+2017-02-21T20:22:09.681136+00:00 app[web.1]: 
+2017-02-21T20:22:10.760519+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T20:22:10.760499+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T20:22:10.760520+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T20:22:10.764806+00:00 app[web.1]: Number of reps: 539
+2017-02-21T20:22:10.777343+00:00 app[web.1]: Your app is listening on port 31954
+2017-02-21T20:22:11.122855+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T20:22:11.531479+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=60d68daa-52de-4664-b5f0-fc2fbcfc5d47 fwd="24.104.249.122" dyno=web.1 connect=1ms service=38ms status=304 bytes=237
+2017-02-21T20:22:11.881881+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=2e2df567-5c20-4919-8973-87d9cf788f7e fwd="24.104.249.122" dyno=web.1 connect=1ms service=6ms status=304 bytes=237
+2017-02-21T20:22:11.891735+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=9db1178e-a611-4f77-ac2b-d4cb9adea2de fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T20:22:12.682776+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=e80f3ee1-1f50-4cf7-b595-88e3dcd3ea47 fwd="24.104.249.122" dyno=web.1 connect=2ms service=28ms status=304 bytes=148
+2017-02-21T20:24:46.404526+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=9c7bb56b-da37-4d04-a42f-842ef7c07833 fwd="24.104.249.122" dyno=web.1 connect=0ms service=22ms status=200 bytes=5822
+2017-02-21T20:24:46.472263+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=e8df43e4-18e9-4f01-af9e-aebb68fcbaf8 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T20:24:46.824349+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=f48c0f1d-b06d-4af7-a3e3-e522f4fe191f fwd="24.104.249.122" dyno=web.1 connect=0ms service=17ms status=304 bytes=148
+2017-02-21T20:25:37.459762+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=da84999f-a7bf-4363-a962-25530d6e94fd fwd="24.104.249.122" dyno=web.1 connect=0ms service=19ms status=200 bytes=5499
+2017-02-21T20:25:37.524959+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=7344a9eb-dd1c-4497-93ba-506a48cb8fab fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T20:25:38.166568+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=539e86ea-fd82-40e5-94e8-d0c8f6163184 fwd="24.104.249.122" dyno=web.1 connect=0ms service=383ms status=200 bytes=54547
+2017-02-21T20:25:47.496283+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=4716afa0-fca8-48e2-91e3-809abe9c72b7 fwd="24.104.249.122" dyno=web.1 connect=0ms service=19ms status=304 bytes=238
+2017-02-21T20:25:47.557775+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=2dd9e583-d582-4def-b3b1-a1d295f275cc fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T20:25:47.728464+00:00 app[web.1]: get this req: undefined
+2017-02-21T20:25:47.886170+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=31ac6cb8-26da-4f0d-a281-6c5e7afcafa4 fwd="24.104.249.122" dyno=web.1 connect=0ms service=158ms status=304 bytes=145
+2017-02-21T20:27:35.443624+00:00 app[web.1]: post of this req: 94608
+2017-02-21T20:27:35.692925+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94608" host=app.yourgov.us request_id=839b2832-f09d-44f0-b8ba-b0b107ff7012 fwd="24.104.249.122" dyno=web.1 connect=0ms service=248ms status=200 bytes=2751
+2017-02-21T20:27:43.837395+00:00 app[web.1]: post of this req: 94607
+2017-02-21T20:27:44.022076+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94607" host=app.yourgov.us request_id=b4cebc69-738e-468e-8cd5-dac0e6225d69 fwd="24.104.249.122" dyno=web.1 connect=0ms service=182ms status=200 bytes=2751
+2017-02-21T20:59:05.068492+00:00 heroku[web.1]: Idling
+2017-02-21T20:59:05.068492+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T20:59:05.657689+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T20:59:05.868512+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T21:00:54.890336+00:00 heroku[web.1]: Unidling
+2017-02-21T21:00:54.890696+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T21:00:57.179923+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T21:01:00.870160+00:00 app[web.1]: 
+2017-02-21T21:01:00.870177+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T21:01:00.870179+00:00 app[web.1]: 
+2017-02-21T21:01:00.870178+00:00 app[web.1]: > node server.js
+2017-02-21T21:01:03.218169+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T21:01:03.218181+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T21:01:03.218183+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T21:01:03.223660+00:00 app[web.1]: Number of reps: 539
+2017-02-21T21:01:03.239869+00:00 app[web.1]: Your app is listening on port 38054
+2017-02-21T21:01:03.859759+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T21:01:05.057983+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=f4163f03-4a39-4213-aecf-5998b94d4326 fwd="50.117.89.222" dyno=web.1 connect=0ms service=51ms status=200 bytes=4169
+2017-02-21T21:36:34.407869+00:00 heroku[web.1]: Idling
+2017-02-21T21:36:34.408485+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T21:36:35.180750+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T21:36:35.408962+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T21:44:09.357561+00:00 heroku[web.1]: Unidling
+2017-02-21T21:44:09.357846+00:00 heroku[web.1]: State changed from down to starting
+2017-02-21T21:44:10.686588+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T21:44:12.855796+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T21:44:12.855783+00:00 app[web.1]: 
+2017-02-21T21:44:12.855796+00:00 app[web.1]: > node server.js
+2017-02-21T21:44:12.855797+00:00 app[web.1]: 
+2017-02-21T21:44:13.972665+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T21:44:13.972680+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T21:44:13.976924+00:00 app[web.1]: Number of reps: 539
+2017-02-21T21:44:13.972679+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T21:44:13.989098+00:00 app[web.1]: Your app is listening on port 49223
+2017-02-21T21:44:14.468287+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T21:44:15.210262+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=c87b306a-6463-45f3-a88a-d40cf0b3ebd6 fwd="24.104.249.122" dyno=web.1 connect=0ms service=17ms status=304 bytes=238
+2017-02-21T21:44:15.262788+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=24a6b23f-9c90-441a-81e5-af8e84be9a44 fwd="24.104.249.122" dyno=web.1 connect=1ms service=5ms status=304 bytes=237
+2017-02-21T21:44:15.395024+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=4445f502-c1cd-4d2e-8c85-00346e5eec10 fwd="52.90.33.223" dyno=web.1 connect=1ms service=9ms status=206 bytes=7586
+2017-02-21T21:44:15.818632+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:44:16.009209+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=bd470a9e-60d1-41e3-a3f0-8ad48758b9e6 fwd="24.104.249.122" dyno=web.1 connect=11ms service=192ms status=304 bytes=145
+2017-02-21T21:44:16.155551+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=app.yourgov.us request_id=d2e0310f-03cf-46e2-9423-6f1526d1d01b fwd="52.91.184.228" dyno=web.1 connect=0ms service=5ms status=404 bytes=222
+2017-02-21T21:44:22.398362+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=a433fab4-b69e-4346-aac7-978e4736681b fwd="73.158.136.27" dyno=web.1 connect=0ms service=6ms status=200 bytes=7539
+2017-02-21T21:44:22.522756+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=7b53a724-9fa8-48cb-8aaf-f210d442de11 fwd="73.158.136.27" dyno=web.1 connect=0ms service=7ms status=200 bytes=1115
+2017-02-21T21:44:23.224848+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=0de03fe5-f10a-4b6a-82c0-497c6e07b030 fwd="73.158.136.27" dyno=web.1 connect=0ms service=47ms status=200 bytes=219
+2017-02-21T21:44:23.180094+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:44:24.395695+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=1402467f-a201-4e0a-8f11-dcc4786cec7f fwd="204.28.118.152" dyno=web.1 connect=0ms service=3ms status=200 bytes=7539
+2017-02-21T21:44:24.490244+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=6706e63f-af1f-4f79-852e-2c322d61b8b1 fwd="204.28.118.152" dyno=web.1 connect=1ms service=2ms status=200 bytes=1115
+2017-02-21T21:44:25.739282+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:44:25.871310+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=dafff1a2-50d8-4e34-a35b-2544c011f20c fwd="204.28.118.152" dyno=web.1 connect=0ms service=131ms status=200 bytes=219
+2017-02-21T21:44:30.313196+00:00 app[web.1]: post of this req: 94606
+2017-02-21T21:44:30.396846+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94606" host=app.yourgov.us request_id=da454d14-661c-4b5c-a18f-6a827c105b9f fwd="73.158.136.27" dyno=web.1 connect=0ms service=87ms status=200 bytes=2751
+2017-02-21T21:44:30.729873+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=06d6496d-848e-498e-8fb5-374e401b915b fwd="108.207.5.8" dyno=web.1 connect=1ms service=3ms status=200 bytes=1115
+2017-02-21T21:44:30.574537+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=88cc9eac-b361-4a95-b1e2-bf0bb3630ba4 fwd="108.207.5.8" dyno=web.1 connect=1ms service=7ms status=200 bytes=7539
+2017-02-21T21:44:31.025520+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:44:31.070271+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=ea32055a-c9b9-45c0-abb4-dbccd5cd3848 fwd="108.207.5.8" dyno=web.1 connect=1ms service=45ms status=200 bytes=219
+2017-02-21T21:44:35.214483+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=ac7ad482-9f6c-4e52-a4f6-732166f9a61f fwd="204.28.118.152" dyno=web.1 connect=0ms service=7ms status=200 bytes=4169
+2017-02-21T21:44:35.310020+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=02b72e22-c086-4be8-8b88-fcf53776fd4f fwd="204.28.118.152" dyno=web.1 connect=0ms service=3ms status=200 bytes=1602
+2017-02-21T21:44:35.397361+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=9e64efbf-00a2-4c3b-ab99-2302f4625f87 fwd="204.28.118.152" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T21:44:35.847335+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=44d55bbe-e17c-4e66-b5bb-5eea02c21bed fwd="204.28.118.152" dyno=web.1 connect=0ms service=89ms status=200 bytes=972936
+2017-02-21T21:44:38.229253+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=d1c6eac8-4b62-4085-8ef7-c4e279d39013 fwd="204.28.118.152" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2017-02-21T21:44:38.114161+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=aada7908-5151-4d62-a6ba-5b570343ead5 fwd="204.28.118.152" dyno=web.1 connect=0ms service=6ms status=200 bytes=5822
+2017-02-21T21:44:38.467748+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=a08ed3f5-fb9b-4288-a837-bd51346b5dcc fwd="204.28.118.152" dyno=web.1 connect=0ms service=30ms status=304 bytes=148
+2017-02-21T21:44:40.890378+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=dbe52f2b-63c5-4a25-9f8a-a62dcec82f04 fwd="199.21.87.198" dyno=web.1 connect=0ms service=29ms status=200 bytes=7539
+2017-02-21T21:44:41.259838+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=7b6acd37-071d-4078-96fc-e7cbd5acbd7d fwd="199.21.87.198" dyno=web.1 connect=0ms service=3ms status=200 bytes=1115
+2017-02-21T21:44:42.225675+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=c88824d9-5712-44da-93dc-c55c61336402 fwd="199.21.87.198" dyno=web.1 connect=0ms service=33ms status=200 bytes=219
+2017-02-21T21:44:42.186906+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:44:45.003638+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94611" host=app.yourgov.us request_id=5fb4761b-5096-452c-b97e-2d57cca86a5a fwd="108.207.5.8" dyno=web.1 connect=1ms service=57ms status=200 bytes=3513
+2017-02-21T21:44:44.947452+00:00 app[web.1]: post of this req: 94611
+2017-02-21T21:44:47.438859+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=e3cfbfd7-b5ec-4908-a843-519cff4de38e fwd="204.28.118.152" dyno=web.1 connect=0ms service=9ms status=304 bytes=238
+2017-02-21T21:44:47.558701+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=8dfd1cc3-4d0b-48a3-ab31-fec523d1e690 fwd="204.28.118.152" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2017-02-21T21:44:48.199579+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=3f2968cc-103e-4794-b336-1aea88205ca8 fwd="204.28.118.152" dyno=web.1 connect=1ms service=40ms status=304 bytes=145
+2017-02-21T21:44:48.161287+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:44:52.100725+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94612" host=app.yourgov.us request_id=177f6367-48ad-40a1-89de-7c4fee136c00 fwd="204.28.118.152" dyno=web.1 connect=1ms service=95ms status=200 bytes=2751
+2017-02-21T21:44:52.008261+00:00 app[web.1]: post of this req: 94612
+2017-02-21T21:45:01.462489+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=d9960d2b-df8d-4b3a-9f4e-e3c5fd03a473 fwd="24.104.249.122" dyno=web.1 connect=2ms service=3ms status=304 bytes=237
+2017-02-21T21:45:01.555170+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=587d6c0b-e4f9-41a3-a821-5460c2b666bf fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T21:45:01.522199+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=f2a01849-e99c-4da8-b6a3-6ed998879b4e fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T21:45:01.857519+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=06697f99-bc36-4cd6-a9d5-437724e31c30 fwd="24.104.249.122" dyno=web.1 connect=0ms service=34ms status=304 bytes=148
+2017-02-21T21:45:16.014536+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=6a4c70e1-f1b7-495c-b7e0-2602d3bc1708 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=238
+2017-02-21T21:45:16.063473+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=ed8a93aa-c8c9-4296-a675-afed2fa5fd39 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T21:45:16.255355+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=91ab034b-355e-49ee-9b3f-59019896dbda fwd="24.104.249.122" dyno=web.1 connect=0ms service=18ms status=304 bytes=148
+2017-02-21T21:45:17.822354+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=e3ecc793-5d42-4409-8c88-96c4a99c6ce6 fwd="24.104.249.122" dyno=web.1 connect=0ms service=5ms status=200 bytes=6091
+2017-02-21T21:45:17.870706+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=24d54234-efc3-4b58-9fc4-6c9b2cd6c620 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T21:45:18.025994+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=6c6a427e-b37c-49be-bc62-3297817131b0 fwd="24.104.249.122" dyno=web.1 connect=0ms service=23ms status=304 bytes=148
+2017-02-21T21:45:19.888553+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=105dde07-cee1-428e-b080-050d845c1b88 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=238
+2017-02-21T21:45:19.953599+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=b5d71220-1715-41d6-891b-4900c0c572fa fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T21:45:20.325392+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=5a87beaa-f8e1-4047-9e3b-67a4c97cf0b1 fwd="24.104.249.122" dyno=web.1 connect=0ms service=218ms status=200 bytes=44739
+2017-02-21T21:45:21.053338+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=c20a2857-4c57-4fa1-b82d-2eb6175cdd56 fwd="24.104.249.122" dyno=web.1 connect=0ms service=2ms status=304 bytes=238
+2017-02-21T21:45:21.112386+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=ab6d7cd2-fd1d-4745-be08-54072fd772cd fwd="24.104.249.122" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-21T21:45:21.268868+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=4578c28f-7af7-462c-a060-49ed930ec838 fwd="24.104.249.122" dyno=web.1 connect=0ms service=27ms status=304 bytes=148
+2017-02-21T21:46:09.000000+00:00 app[api]: Build started by user wells.royce@gmail.com
+2017-02-21T21:46:16.741300+00:00 app[api]: Deploy af7ed47 by user wells.royce@gmail.com
+2017-02-21T21:46:16.741300+00:00 app[api]: Release v13 created by user wells.royce@gmail.com
+2017-02-21T21:46:09.000000+00:00 app[api]: Build succeeded
+2017-02-21T21:46:17.551003+00:00 heroku[web.1]: Restarting
+2017-02-21T21:46:17.551550+00:00 heroku[web.1]: State changed from up to starting
+2017-02-21T21:46:17.501074+00:00 app[api]: Release v13 created by user wells.royce@gmail.com
+2017-02-21T21:46:18.245716+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T21:46:18.417184+00:00 heroku[web.1]: Process exited with status 143
+2017-02-21T21:46:19.660471+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-21T21:46:23.475792+00:00 app[web.1]: 
+2017-02-21T21:46:23.475814+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-21T21:46:23.475815+00:00 app[web.1]: > node server.js
+2017-02-21T21:46:23.475816+00:00 app[web.1]: 
+2017-02-21T21:46:25.558525+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-21T21:46:25.558537+00:00 app[web.1]:   last: 'Brown',
+2017-02-21T21:46:25.558538+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-21T21:46:25.564478+00:00 app[web.1]: Number of reps: 539
+2017-02-21T21:46:25.587756+00:00 app[web.1]: Your app is listening on port 15761
+2017-02-21T21:46:26.304201+00:00 heroku[web.1]: State changed from starting to up
+2017-02-21T21:46:33.478313+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=bf8805d6-7833-4a11-a71b-6317c395fc38 fwd="24.104.249.122" dyno=web.1 connect=1ms service=27ms status=200 bytes=6205
+2017-02-21T21:46:33.544117+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=3d6ee8f3-b1fd-46e3-b4b7-03bf5f20019f fwd="24.104.249.122" dyno=web.1 connect=2ms service=9ms status=200 bytes=1115
+2017-02-21T21:46:33.861820+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=cea0cc87-8328-481e-b26d-04ce1608c0a9 fwd="24.104.249.122" dyno=web.1 connect=1ms service=24ms status=304 bytes=148
+2017-02-21T21:46:35.414044+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=e2006754-f88d-42ca-8881-9ef4f50efb1e fwd="24.104.249.122" dyno=web.1 connect=1ms service=10ms status=200 bytes=7539
+2017-02-21T21:46:35.471671+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=07b89206-00be-483a-aa25-465f01f7bf93 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-21T21:46:35.642513+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:46:35.907358+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=adcda77f-fe82-4161-88d3-b29d965944db fwd="24.104.249.122" dyno=web.1 connect=1ms service=269ms status=304 bytes=145
+2017-02-21T21:46:36.427851+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=a56c485b-d09f-4205-b864-5c92f5f1c989 fwd="24.104.249.122" dyno=web.1 connect=1ms service=9ms status=200 bytes=5499
+2017-02-21T21:46:36.476969+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=59980e8d-15e2-4c57-9d27-475382992fe4 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-21T21:46:36.776369+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=19665ea7-4d91-44ba-af15-d0ebab803288 fwd="24.104.249.122" dyno=web.1 connect=1ms service=78ms status=304 bytes=147
+2017-02-21T21:46:37.638516+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=9df11904-9161-4296-9d80-0c2165da61a2 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=238
+2017-02-21T21:46:37.681872+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=6b5ea4cd-15c6-460b-90c0-9a2cb98aa66a fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-21T21:46:37.823949+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=7de5b63c-b312-4890-8537-c53fc98d9013 fwd="24.104.249.122" dyno=web.1 connect=1ms service=23ms status=304 bytes=148
+2017-02-21T21:46:38.916272+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=129894db-b0cf-4895-8616-41690f644489 fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=200 bytes=5822
+2017-02-21T21:46:38.962358+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=24ffea84-cec4-4556-9643-68cd4c46d458 fwd="24.104.249.122" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T21:46:39.106748+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=58a0368c-4cb0-4aee-821d-e397925d0008 fwd="24.104.249.122" dyno=web.1 connect=1ms service=18ms status=304 bytes=148
+2017-02-21T21:46:40.024039+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=ae59a0ee-2da9-4c2c-b01d-48f1274f8ecf fwd="24.104.249.122" dyno=web.1 connect=2ms service=9ms status=200 bytes=4169
+2017-02-21T21:46:40.110571+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=c91a315f-e017-4fb5-b0fe-07cc87214b6a fwd="24.104.249.122" dyno=web.1 connect=1ms service=5ms status=200 bytes=1602
+2017-02-21T21:46:40.085888+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=5b3ee553-2ae7-4194-948c-00b3814e3dfe fwd="24.104.249.122" dyno=web.1 connect=1ms service=7ms status=304 bytes=237
+2017-02-21T21:46:40.249745+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=aee98c66-c100-4fba-b1f8-6b809bdc16a8 fwd="24.104.249.122" dyno=web.1 connect=2ms service=28ms status=304 bytes=148
+2017-02-21T21:50:08.156426+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=1e61fede-4506-459f-9ab1-610b5cb5595d fwd="204.28.118.152" dyno=web.1 connect=0ms service=10ms status=200 bytes=4169
+2017-02-21T21:50:08.302459+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=37d763d3-5cfe-48e5-8bc2-8555d85c1857 fwd="204.28.118.152" dyno=web.1 connect=0ms service=8ms status=200 bytes=1115
+2017-02-21T21:50:08.401686+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=f1022498-736c-4a76-967c-7ed50bfec3d6 fwd="204.28.118.152" dyno=web.1 connect=0ms service=2ms status=200 bytes=1602
+2017-02-21T21:50:09.092955+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=bd8b69c5-6d68-430b-a14b-3cc7a7dce9ec fwd="204.28.118.152" dyno=web.1 connect=1ms service=47ms status=304 bytes=148
+2017-02-21T21:50:23.741508+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=c0eb01b7-8947-4894-bad7-b61ea8fb9bc7 fwd="204.28.118.152" dyno=web.1 connect=0ms service=14ms status=200 bytes=5822
+2017-02-21T21:50:23.846624+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=e719b667-6921-45cb-92a3-a04df92ff6a7 fwd="204.28.118.152" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T21:50:24.103989+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=9128b039-ad54-470b-8deb-ee685f8b74a1 fwd="204.28.118.152" dyno=web.1 connect=1ms service=27ms status=304 bytes=148
+2017-02-21T21:50:28.361806+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=537f6eb6-294e-432e-84f0-a0bec25e06d5 fwd="204.28.118.152" dyno=web.1 connect=0ms service=2ms status=200 bytes=6205
+2017-02-21T21:50:28.474502+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=c6979324-9601-48a3-911a-b6766531ba37 fwd="204.28.118.152" dyno=web.1 connect=0ms service=7ms status=304 bytes=237
+2017-02-21T21:50:28.714310+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=22642d43-3ff1-48cf-8900-fb3b803b4c25 fwd="204.28.118.152" dyno=web.1 connect=0ms service=49ms status=304 bytes=148
+2017-02-21T21:50:32.313540+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=7bb966e5-7225-4412-985f-d2c666893c95 fwd="204.28.118.152" dyno=web.1 connect=0ms service=12ms status=200 bytes=5499
+2017-02-21T21:50:32.569960+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=94eeb708-9456-4a21-ae7a-913df5b975bc fwd="204.28.118.152" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2017-02-21T21:50:32.956149+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=8c97887c-172d-41c1-97a4-0a5009abf3d7 fwd="204.28.118.152" dyno=web.1 connect=1ms service=116ms status=200 bytes=44739
+2017-02-21T21:50:33.362843+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=2bdfc9a7-857f-444d-95d5-a416ec78e14c fwd="73.189.225.105" dyno=web.1 connect=1ms service=15ms status=200 bytes=7539
+2017-02-21T21:50:33.465458+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=09590389-45b7-428e-abd3-a36803a42b4a fwd="73.189.225.105" dyno=web.1 connect=1ms service=5ms status=200 bytes=1115
+2017-02-21T21:50:33.897769+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=6980c249-8697-40e3-8be0-9709608d3264 fwd="73.189.225.105" dyno=web.1 connect=1ms service=45ms status=200 bytes=219
+2017-02-21T21:50:33.849552+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:50:37.764042+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94502" host=app.yourgov.us request_id=cd686bd7-4c9f-40c2-a5c7-46254ee866ca fwd="73.189.225.105" dyno=web.1 connect=1ms service=117ms status=200 bytes=2751
+2017-02-21T21:50:37.643273+00:00 app[web.1]: post of this req: 94502
+2017-02-21T21:50:54.721491+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=b7661c72-52bf-4972-89f1-4e16297cc066 fwd="73.189.225.105" dyno=web.1 connect=1ms service=5ms status=304 bytes=238
+2017-02-21T21:50:54.848634+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=71201166-0c75-430b-8780-e6b50578c182 fwd="73.189.225.105" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2017-02-21T21:50:55.174812+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:50:55.247693+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=e820f36b-52bb-426f-bccd-87fc7f19963c fwd="73.189.225.105" dyno=web.1 connect=1ms service=64ms status=304 bytes=145
+2017-02-21T21:51:33.063005+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=ed752189-e4a9-4f89-8b7c-717653470a24 fwd="73.189.225.105" dyno=web.1 connect=1ms service=3ms status=304 bytes=238
+2017-02-21T21:51:33.161729+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=cd67958b-5f24-4cb4-ae7f-caf6d6866a45 fwd="73.189.225.105" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T21:51:33.490369+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:51:33.635643+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=5ae6dad1-6541-4cbe-ad27-affc003cbf60 fwd="73.189.225.105" dyno=web.1 connect=1ms service=136ms status=304 bytes=145
+2017-02-21T21:52:02.192377+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=5e739050-45da-4357-aebd-bf73e1e15476 fwd="69.181.3.192" dyno=web.1 connect=0ms service=3ms status=200 bytes=7539
+2017-02-21T21:52:02.289224+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=ca953c6f-4830-4e5f-869e-5fa3a47063ec fwd="69.181.3.192" dyno=web.1 connect=0ms service=2ms status=200 bytes=1115
+2017-02-21T21:52:02.728752+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=dee5b2e9-25b0-4bf0-a5b4-6052108e8f94 fwd="69.181.3.192" dyno=web.1 connect=0ms service=47ms status=200 bytes=219
+2017-02-21T21:52:02.685451+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:52:50.261660+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=4c6d2eea-b027-49ce-9c07-e26f0eb7b16d fwd="73.170.113.125" dyno=web.1 connect=1ms service=5ms status=200 bytes=7539
+2017-02-21T21:52:50.377699+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=f1bdc17b-1468-42b7-8b20-ac62f095a288 fwd="73.170.113.125" dyno=web.1 connect=1ms service=9ms status=200 bytes=1115
+2017-02-21T21:52:50.909439+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:52:51.898457+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=98e7f046-ef1e-4932-8d17-f94abd4c2782 fwd="73.170.113.125" dyno=web.1 connect=1ms service=990ms status=200 bytes=219
+2017-02-21T21:52:56.596591+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=7177200b-5379-4237-ba27-60848210b51e fwd="24.104.249.122" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-21T21:52:56.517079+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=505b139b-641a-4a48-9ba8-88ae8ff894bc fwd="24.104.249.122" dyno=web.1 connect=2ms service=4ms status=304 bytes=238
+2017-02-21T21:52:56.873429+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:52:57.222944+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=098a9cbd-553c-4408-913c-49093a595dab fwd="24.104.249.122" dyno=web.1 connect=1ms service=353ms status=304 bytes=145
+2017-02-21T21:52:59.679441+00:00 app[web.1]: post of this req: 30338
+2017-02-21T21:53:00.235865+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=30338" host=app.yourgov.us request_id=bc37a5c9-e106-4020-ac11-299bfdd35967 fwd="73.170.113.125" dyno=web.1 connect=1ms service=559ms status=200 bytes=2034
+2017-02-21T21:53:06.884883+00:00 app[web.1]: post of this req: 94122
+2017-02-21T21:53:07.420729+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94122" host=app.yourgov.us request_id=8faec69a-f08a-4416-9ac7-2804a1c8549d fwd="73.170.113.125" dyno=web.1 connect=1ms service=537ms status=200 bytes=2772
+2017-02-21T21:53:26.175915+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=508ddb7b-47e2-4073-9ad7-6e452c9469f0 fwd="76.21.9.124" dyno=web.1 connect=1ms service=2ms status=200 bytes=7539
+2017-02-21T21:53:26.273498+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=83f8ec25-984e-4f1f-93b4-4a82ccab532a fwd="76.21.9.124" dyno=web.1 connect=1ms service=6ms status=200 bytes=1115
+2017-02-21T21:53:26.521264+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=07478c4c-2df6-4058-9d43-cb42459c8a7a fwd="108.91.25.27" dyno=web.1 connect=0ms service=2ms status=200 bytes=7539
+2017-02-21T21:53:26.650278+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=01dd61f4-f7e6-4a3b-9726-05d6c0666930 fwd="108.91.25.27" dyno=web.1 connect=0ms service=2ms status=200 bytes=1115
+2017-02-21T21:53:26.808065+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:53:27.168503+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=8964fbda-91ac-45fe-bc0b-a646551824bf fwd="76.21.9.124" dyno=web.1 connect=1ms service=358ms status=200 bytes=219
+2017-02-21T21:53:28.007546+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:53:28.338511+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=c37cf8af-9c22-4cf7-83cb-a7df1c270c37 fwd="108.91.25.27" dyno=web.1 connect=0ms service=333ms status=200 bytes=219
+2017-02-21T21:54:12.492930+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=62086801-b488-4b81-beaa-4e3f58a75026 fwd="76.21.9.124" dyno=web.1 connect=1ms service=3ms status=200 bytes=4169
+2017-02-21T21:54:12.685142+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=b2058bf2-e143-404c-a319-cbdcd6263e87 fwd="76.21.9.124" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T21:54:12.591187+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=37c22a05-8f68-4902-a810-84cb1540998e fwd="76.21.9.124" dyno=web.1 connect=1ms service=2ms status=200 bytes=1602
+2017-02-21T21:54:13.003312+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=38b478d0-3fce-4792-a9fa-17b35b184b56 fwd="76.21.9.124" dyno=web.1 connect=1ms service=59ms status=200 bytes=972936
+2017-02-21T21:54:14.126227+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=f5b3a5a1-d3c7-450e-bdd7-98685737f8b0 fwd="76.21.9.124" dyno=web.1 connect=1ms service=7ms status=200 bytes=5822
+2017-02-21T21:54:14.230513+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=ac460a2a-1e2b-473c-ba35-2149218e425f fwd="76.21.9.124" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-21T21:54:14.368626+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=b426d21d-b5cb-4365-acca-22eb4d1b55ba fwd="76.21.9.124" dyno=web.1 connect=1ms service=32ms status=304 bytes=148
+2017-02-21T21:54:17.408870+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=0f0c9411-68cf-4245-8be8-ec41a3393dbc fwd="76.21.9.124" dyno=web.1 connect=3ms service=4ms status=200 bytes=6205
+2017-02-21T21:54:17.514180+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=4fcfdd31-6dab-4127-9b26-c807965f0948 fwd="76.21.9.124" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-21T21:54:17.638403+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=818b5c47-8c74-4dfd-9149-91686f68771e fwd="76.21.9.124" dyno=web.1 connect=1ms service=19ms status=304 bytes=148
+2017-02-21T21:54:27.867980+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=da7b85c6-a71d-49d3-a114-e4d45b2690b8 fwd="76.21.9.124" dyno=web.1 connect=1ms service=27ms status=304 bytes=238
+2017-02-21T21:54:27.978847+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=807d4c60-711f-485c-9240-e49be77faedc fwd="76.21.9.124" dyno=web.1 connect=3ms service=9ms status=304 bytes=237
+2017-02-21T21:54:28.163760+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:54:28.739550+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=9b1a75c0-7cbb-4b9a-93cb-12fd93c7e56b fwd="76.21.9.124" dyno=web.1 connect=1ms service=569ms status=304 bytes=145
+2017-02-21T21:55:00.534690+00:00 app[web.1]: post of this req: 94602
+2017-02-21T21:55:00.728866+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94602" host=app.yourgov.us request_id=52aa4199-186c-4ce3-90f5-02cd1bef6772 fwd="108.91.25.27" dyno=web.1 connect=1ms service=196ms status=200 bytes=2751
+2017-02-21T21:56:56.077764+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=8673c686-2733-4559-bc90-c72d16a82c02 fwd="107.77.76.58" dyno=web.1 connect=1ms service=10ms status=200 bytes=6205
+2017-02-21T21:56:56.233490+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=f2e4784c-bdf2-4778-b214-c47587439d93 fwd="107.77.76.58" dyno=web.1 connect=3ms service=6ms status=200 bytes=1115
+2017-02-21T21:56:56.544428+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=6dd1359d-e4a8-4fb9-8814-58dbd4377016 fwd="107.77.76.58" dyno=web.1 connect=1ms service=44ms status=304 bytes=148
+2017-02-21T21:58:17.669282+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=80cbe113-e94c-4d08-8821-3d53509d778a fwd="204.28.118.152" dyno=web.1 connect=0ms service=4ms status=200 bytes=1115
+2017-02-21T21:58:17.574306+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=a72eee53-6f6c-4dd9-8c54-e15b1d88172e fwd="204.28.118.152" dyno=web.1 connect=1ms service=3ms status=200 bytes=7539
+2017-02-21T21:58:18.190104+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:58:18.345002+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=17f2122e-0a35-4d48-b843-09e3e4332ce5 fwd="204.28.118.152" dyno=web.1 connect=1ms service=132ms status=200 bytes=219
+2017-02-21T21:58:26.565286+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=98a953cc-b8b3-4606-85da-5393c111f873 fwd="204.28.118.152" dyno=web.1 connect=0ms service=2ms status=200 bytes=1602
+2017-02-21T21:58:26.414946+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=f924f98d-2199-49a8-b37b-d110d89d2bff fwd="204.28.118.152" dyno=web.1 connect=0ms service=31ms status=200 bytes=4169
+2017-02-21T21:58:26.508226+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=2c55a98b-2553-463c-aa43-5c11de16f4fc fwd="204.28.118.152" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T21:58:26.700908+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=c98acee6-77d2-4a59-a44e-45f31b874294 fwd="204.28.118.152" dyno=web.1 connect=0ms service=40ms status=200 bytes=972936
+2017-02-21T21:58:28.484509+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=6f702347-f6ca-44af-b8df-48165d7c6a39 fwd="204.28.118.152" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2017-02-21T21:58:28.611299+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=bed4f28e-7210-4911-a50d-d84d2237edc3 fwd="204.28.118.152" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T21:58:28.590069+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=9291bc65-40de-4f77-865f-e63e4fafac7c fwd="204.28.118.152" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2017-02-21T21:58:28.737771+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=2681d647-870b-433e-995c-18ca359ec6a5 fwd="204.28.118.152" dyno=web.1 connect=0ms service=35ms status=304 bytes=148
+2017-02-21T21:58:29.885477+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=9ce90c81-81cf-4407-8dbf-e22cfb3d1a33 fwd="204.28.118.152" dyno=web.1 connect=0ms service=6ms status=200 bytes=5822
+2017-02-21T21:58:29.988914+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=c4862877-0001-4f43-a401-0e80bc512386 fwd="204.28.118.152" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2017-02-21T21:58:30.137144+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=9a1986d0-b625-4d14-b2bc-8055b78cae11 fwd="204.28.118.152" dyno=web.1 connect=5ms service=33ms status=304 bytes=148
+2017-02-21T21:58:31.151933+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=ba91c9e0-9e1a-4993-aa57-53556f0b43c7 fwd="204.28.118.152" dyno=web.1 connect=1ms service=2ms status=200 bytes=6205
+2017-02-21T21:58:31.248571+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=bedb3a1c-7767-4be6-8f9f-4733cdaeb6c8 fwd="204.28.118.152" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-21T21:58:31.412630+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=412a564f-eb7d-4ae8-8771-62730274947d fwd="204.28.118.152" dyno=web.1 connect=0ms service=53ms status=304 bytes=148
+2017-02-21T21:58:32.381754+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=edb34c7c-727e-478f-b9ac-4e915b306617 fwd="204.28.118.152" dyno=web.1 connect=1ms service=6ms status=304 bytes=238
+2017-02-21T21:58:32.481741+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=6d39f6bd-51b6-45bb-a6d1-d9106200982f fwd="204.28.118.152" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2017-02-21T21:58:32.636426+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=934ca14a-289e-4269-ae7f-8d7446585032 fwd="204.28.118.152" dyno=web.1 connect=0ms service=41ms status=304 bytes=145
+2017-02-21T21:58:32.596587+00:00 app[web.1]: get this req: undefined
+2017-02-21T21:58:38.150147+00:00 app[web.1]: post of this req: 94612
+2017-02-21T21:58:38.212809+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94612" host=app.yourgov.us request_id=d7f1d1e5-301f-49cb-8d9a-a71aaf39a14d fwd="204.28.118.152" dyno=web.1 connect=0ms service=64ms status=200 bytes=2751
+2017-02-21T22:20:05.419418+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=c9a271ab-bf00-4cff-ba5e-7f9f54b2924d fwd="199.21.87.198" dyno=web.1 connect=0ms service=7ms status=200 bytes=7539
+2017-02-21T22:20:05.507745+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=db435ffc-2d5d-45fc-aac3-ea609b760d8b fwd="199.21.87.198" dyno=web.1 connect=0ms service=4ms status=200 bytes=1115
+2017-02-21T22:20:05.873803+00:00 app[web.1]: get this req: undefined
+2017-02-21T22:20:06.117486+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=60117240-7713-49ac-9cf7-7994a6d2d093 fwd="199.21.87.198" dyno=web.1 connect=0ms service=244ms status=200 bytes=219
+2017-02-21T22:20:11.337873+00:00 app[web.1]: post of this req: 94607
+2017-02-21T22:20:11.431595+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94607" host=app.yourgov.us request_id=e7630237-bff8-4740-9ac9-acb72a74c432 fwd="199.21.87.198" dyno=web.1 connect=0ms service=95ms status=200 bytes=2751
+2017-02-21T22:22:15.451366+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=193605c3-a368-46ed-af13-c2835f3db3b5 fwd="73.71.31.198" dyno=web.1 connect=1ms service=5ms status=200 bytes=7539
+2017-02-21T22:22:15.601876+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=719833ab-e49f-4cde-8686-47fdef43839a fwd="73.71.31.198" dyno=web.1 connect=1ms service=4ms status=200 bytes=1115
+2017-02-21T22:22:16.195846+00:00 app[web.1]: get this req: undefined
+2017-02-21T22:22:16.281095+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=087db9f2-28c6-4574-8672-54057c6c78fe fwd="73.71.31.198" dyno=web.1 connect=1ms service=88ms status=200 bytes=219
+2017-02-21T22:22:26.081417+00:00 app[web.1]: post of this req: 94606
+2017-02-21T22:22:26.213479+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94606" host=app.yourgov.us request_id=58169584-0cf8-4b28-9311-ec6378367e98 fwd="73.71.31.198" dyno=web.1 connect=1ms service=136ms status=200 bytes=2751
+2017-02-21T22:27:39.992188+00:00 heroku[router]: at=info method=GET path="/robots.txt" host=www.yourgov.us request_id=82d2269c-1484-49c8-af20-12a2febc32be fwd="100.43.85.8" dyno=web.1 connect=1ms service=5ms status=404 bytes=221
+2017-02-21T22:27:43.951692+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=3db00b5c-2a93-4ab1-9104-63980f03b888 fwd="100.43.85.8" dyno=web.1 connect=1ms service=4ms status=200 bytes=4169
+2017-02-21T22:28:24.499747+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=01a9c1b3-a026-4c9e-9a76-84ce68970068 fwd="67.188.105.117" dyno=web.1 connect=1ms service=3ms status=200 bytes=7539
+2017-02-21T22:28:24.610881+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=a675dfea-3e06-49cb-94f1-b071d69c9558 fwd="67.188.105.117" dyno=web.1 connect=1ms service=5ms status=200 bytes=1115
+2017-02-21T22:28:26.782250+00:00 app[web.1]: get this req: undefined
+2017-02-21T22:28:26.937958+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=84f71aa6-f9b9-41a6-a48e-652e0b45caea fwd="67.188.105.117" dyno=web.1 connect=1ms service=160ms status=200 bytes=219
+2017-02-21T22:28:37.069014+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94602" host=app.yourgov.us request_id=122a7e73-23f6-43c0-9fbe-95009270ee8f fwd="67.188.105.117" dyno=web.1 connect=1ms service=93ms status=200 bytes=2751
+2017-02-21T22:28:36.984755+00:00 app[web.1]: post of this req: 94602
+2017-02-21T22:50:33.391598+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=3847dec1-6856-4465-a4d8-c5bb4f8bfb9a fwd="108.207.5.8" dyno=web.1 connect=1ms service=3ms status=200 bytes=7539
+2017-02-21T22:50:33.504624+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=c1e78d05-4cf2-48a2-b380-fd43a87426c1 fwd="108.207.5.8" dyno=web.1 connect=1ms service=3ms status=200 bytes=1115
+2017-02-21T22:50:34.017731+00:00 app[web.1]: get this req: undefined
+2017-02-21T22:50:34.133056+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=e19f0cf2-38c2-41a9-adc4-5a96c1d5e057 fwd="108.207.5.8" dyno=web.1 connect=1ms service=113ms status=200 bytes=219
+2017-02-21T22:50:38.842083+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=69c05dc9-a33d-4ae1-b205-999c34753a36 fwd="108.207.5.8" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2017-02-21T22:50:38.863959+00:00 heroku[router]: at=info method=GET path="/client.js" host=app.yourgov.us request_id=4af83249-1825-450f-b821-92e65cbad2dd fwd="108.207.5.8" dyno=web.1 connect=1ms service=4ms status=200 bytes=1602
+2017-02-21T22:50:38.688089+00:00 heroku[router]: at=info method=GET path="/" host=app.yourgov.us request_id=15ce995e-7c44-49bf-bd5b-293da4c9eebc fwd="108.207.5.8" dyno=web.1 connect=1ms service=5ms status=200 bytes=4169
+2017-02-21T22:50:39.150340+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=d286137c-e9a8-43db-9a35-4afcb7f4db16 fwd="108.207.5.8" dyno=web.1 connect=1ms service=57ms status=200 bytes=972936
+2017-02-21T22:50:47.450511+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=61bc5271-2c26-49fb-b6f6-143bbc32ed5e fwd="108.207.5.8" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T22:50:47.262911+00:00 heroku[router]: at=info method=GET path="/house" host=app.yourgov.us request_id=eec4d9ca-7c17-465f-967c-d006623f41dd fwd="108.207.5.8" dyno=web.1 connect=1ms service=6ms status=200 bytes=5822
+2017-02-21T22:50:47.659297+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=c12d6432-c9fb-4d18-bbb3-fddd820d48c3 fwd="108.207.5.8" dyno=web.1 connect=0ms service=17ms status=304 bytes=148
+2017-02-21T22:50:53.394461+00:00 heroku[router]: at=info method=GET path="/senate" host=app.yourgov.us request_id=188ae5ef-7048-4d0d-a7c4-e2ac0a7a7339 fwd="108.207.5.8" dyno=web.1 connect=1ms service=4ms status=200 bytes=6205
+2017-02-21T22:50:53.514622+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=c37aa983-58f6-407b-ac05-823f68a50656 fwd="108.207.5.8" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T22:50:53.690524+00:00 heroku[router]: at=info method=GET path="/reps" host=app.yourgov.us request_id=1074d9b4-0f36-46d8-82f2-ff9ecd87e8ed fwd="108.207.5.8" dyno=web.1 connect=1ms service=27ms status=304 bytes=148
+2017-02-21T22:50:58.139455+00:00 heroku[router]: at=info method=GET path="/bills" host=app.yourgov.us request_id=390f158a-09a0-4929-bb12-bb47dd8729d8 fwd="108.207.5.8" dyno=web.1 connect=1ms service=4ms status=200 bytes=5499
+2017-02-21T22:50:58.333279+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=b1fca1a9-1682-469b-b024-10293884b04f fwd="108.207.5.8" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2017-02-21T22:50:58.555459+00:00 heroku[router]: at=info method=GET path="/api/bills" host=app.yourgov.us request_id=8dda6375-939e-4cf6-adb2-60ffb516493f fwd="108.207.5.8" dyno=web.1 connect=1ms service=27ms status=200 bytes=44739
+2017-02-21T22:50:59.983530+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=d30c8e72-530d-4b1e-9166-67f3cddf18d4 fwd="108.207.5.8" dyno=web.1 connect=1ms service=3ms status=304 bytes=238
+2017-02-21T22:51:00.101355+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=e37cd226-1188-4c26-94f7-f223ac9797ea fwd="108.207.5.8" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-21T22:51:00.246107+00:00 app[web.1]: get this req: undefined
+2017-02-21T22:51:00.311907+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=ce98b103-651d-4f40-a110-d8736cda767f fwd="108.207.5.8" dyno=web.1 connect=1ms service=49ms status=304 bytes=145
+2017-02-21T23:17:48.518496+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=a3ebbeb5-2dd0-401e-92d0-b659d16aa671 fwd="52.71.155.178" dyno=web.1 connect=0ms service=14ms status=200 bytes=7539
+2017-02-21T23:17:48.494021+00:00 heroku[router]: at=info method=GET path="/robots.txt" host=app.yourgov.us request_id=cc1c2587-78c2-4d76-8926-f60d6e8993c5 fwd="52.71.155.178" dyno=web.1 connect=0ms service=6ms status=404 bytes=221
+2017-02-21T23:54:05.883749+00:00 heroku[web.1]: Idling
+2017-02-21T23:54:05.884270+00:00 heroku[web.1]: State changed from up to down
+2017-02-21T23:54:06.782196+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-21T23:54:07.104707+00:00 heroku[web.1]: Process exited with status 143
+2017-02-22T01:05:15.805656+00:00 heroku[web.1]: Unidling
+2017-02-22T01:05:15.805917+00:00 heroku[web.1]: State changed from down to starting
+2017-02-22T01:05:17.784533+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-22T01:05:21.645173+00:00 app[web.1]: 
+2017-02-22T01:05:21.645200+00:00 app[web.1]: > node server.js
+2017-02-22T01:05:21.645201+00:00 app[web.1]: 
+2017-02-22T01:05:21.645199+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-22T01:05:24.602418+00:00 heroku[web.1]: State changed from starting to up
+2017-02-22T01:05:24.404134+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-22T01:05:24.404143+00:00 app[web.1]:   last: 'Brown',
+2017-02-22T01:05:24.404144+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-22T01:05:24.425236+00:00 app[web.1]: Number of reps: 539
+2017-02-22T01:05:24.461679+00:00 app[web.1]: Your app is listening on port 28481
+2017-02-22T01:05:25.911210+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=9d5d4137-38ca-41eb-8b8d-a6bea2c40263 fwd="104.148.118.51" dyno=web.1 connect=0ms service=44ms status=200 bytes=4169
+2017-02-22T01:42:00.934277+00:00 heroku[web.1]: Idling
+2017-02-22T01:42:00.934833+00:00 heroku[web.1]: State changed from up to down
+2017-02-22T01:42:01.900701+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-22T01:42:02.240362+00:00 heroku[web.1]: Process exited with status 143
+2017-02-22T10:10:24.425317+00:00 heroku[web.1]: Unidling
+2017-02-22T10:10:24.426044+00:00 heroku[web.1]: State changed from down to starting
+2017-02-22T10:10:26.523814+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-22T10:10:29.823735+00:00 app[web.1]: 
+2017-02-22T10:10:29.823758+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-22T10:10:29.823759+00:00 app[web.1]: > node server.js
+2017-02-22T10:10:29.823760+00:00 app[web.1]: 
+2017-02-22T10:10:31.113823+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-22T10:10:31.113839+00:00 app[web.1]:   last: 'Brown',
+2017-02-22T10:10:31.113840+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-22T10:10:31.118171+00:00 app[web.1]: Number of reps: 539
+2017-02-22T10:10:31.130304+00:00 app[web.1]: Your app is listening on port 42041
+2017-02-22T10:10:31.574604+00:00 heroku[web.1]: State changed from starting to up
+2017-02-22T10:10:32.509515+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=35276aa2-c472-4159-af36-ef4a7eae86f3 fwd="104.148.118.51" dyno=web.1 connect=3ms service=33ms status=200 bytes=4169
+2017-02-22T10:45:40.398461+00:00 heroku[web.1]: Idling
+2017-02-22T10:45:40.399156+00:00 heroku[web.1]: State changed from up to down
+2017-02-22T10:45:41.298924+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-22T10:45:41.696465+00:00 heroku[web.1]: Process exited with status 143
+2017-02-22T12:01:05.281043+00:00 heroku[web.1]: Unidling
+2017-02-22T12:01:05.281449+00:00 heroku[web.1]: State changed from down to starting
+2017-02-22T12:01:07.057636+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-22T12:01:09.959750+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-22T12:01:09.959751+00:00 app[web.1]: > node server.js
+2017-02-22T12:01:09.959738+00:00 app[web.1]: 
+2017-02-22T12:01:09.959751+00:00 app[web.1]: 
+2017-02-22T12:01:11.512713+00:00 heroku[web.1]: State changed from starting to up
+2017-02-22T12:01:11.428848+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-22T12:01:11.428859+00:00 app[web.1]:   last: 'Brown',
+2017-02-22T12:01:11.428860+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-22T12:01:11.433981+00:00 app[web.1]: Number of reps: 539
+2017-02-22T12:01:11.446866+00:00 app[web.1]: Your app is listening on port 22775
+2017-02-22T12:01:12.388120+00:00 heroku[router]: at=info method=GET path="/" host=www.yourgov.us request_id=90ce0d46-66eb-4c9c-9ba7-72e468c08705 fwd="104.148.118.51" dyno=web.1 connect=0ms service=32ms status=200 bytes=4169
+2017-02-22T12:35:01.830930+00:00 heroku[web.1]: Idling
+2017-02-22T12:35:01.832007+00:00 heroku[web.1]: State changed from up to down
+2017-02-22T12:35:02.838663+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-22T12:35:03.092124+00:00 heroku[web.1]: Process exited with status 143
+2017-02-22T14:44:25.831860+00:00 heroku[web.1]: Unidling
+2017-02-22T14:44:25.832125+00:00 heroku[web.1]: State changed from down to starting
+2017-02-22T14:44:27.133620+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-02-22T14:44:29.618324+00:00 app[web.1]: 
+2017-02-22T14:44:29.618345+00:00 app[web.1]: > my-reps@0.0.4 start /app
+2017-02-22T14:44:29.618346+00:00 app[web.1]: > node server.js
+2017-02-22T14:44:29.618347+00:00 app[web.1]: 
+2017-02-22T14:44:30.738700+00:00 heroku[web.1]: State changed from starting to up
+2017-02-22T14:44:30.668055+00:00 app[web.1]: { first: 'Sherrod',
+2017-02-22T14:44:30.668071+00:00 app[web.1]:   last: 'Brown',
+2017-02-22T14:44:30.668072+00:00 app[web.1]:   official_full: 'Sherrod Brown' }
+2017-02-22T14:44:30.672572+00:00 app[web.1]: Number of reps: 539
+2017-02-22T14:44:30.684987+00:00 app[web.1]: Your app is listening on port 22209
+2017-02-22T14:44:31.897140+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=a3fb90ce-1e4e-48c3-bf9c-ea9f80f73ac7 fwd="24.104.249.122" dyno=web.1 connect=1ms service=17ms status=304 bytes=238
+2017-02-22T14:44:38.637134+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=f5676baa-09f9-4582-8749-86e2eb601789 fwd="192.99.18.43" dyno=web.1 connect=6ms service=12ms status=200 bytes=7539
+2017-02-22T14:44:38.678671+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=daeeb249-e710-4b98-ab0c-8255ab2b6ab4 fwd="192.99.18.43" dyno=web.1 connect=1ms service=4ms status=200 bytes=1115
+2017-02-22T14:44:38.753905+00:00 app[web.1]: get this req: undefined
+2017-02-22T14:44:38.943183+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=a6aff837-ebd3-4626-a990-125dc01f9b13 fwd="192.99.18.43" dyno=web.1 connect=1ms service=161ms status=200 bytes=219
+2017-02-22T14:44:46.306601+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=cb6ac682-e358-4dd6-926c-e2439ba7a11e fwd="91.121.67.189" dyno=web.1 connect=0ms service=3ms status=404 bytes=198
+2017-02-22T14:44:57.874796+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=4217f7a7-612f-46ec-bb8a-543082779739 fwd="91.121.67.189" dyno=web.1 connect=0ms service=2ms status=404 bytes=198
+2017-02-22T14:44:58.122139+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=4c247d15-3006-489c-82a8-8507b6491a07 fwd="104.198.79.200" dyno=web.1 connect=0ms service=3ms status=200 bytes=7539
+2017-02-22T14:45:01.899647+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=1e83171f-2c0f-433f-9fa2-6e9475e875e7 fwd="24.104.249.122" dyno=web.1 connect=2ms service=3ms status=200 bytes=7539
+2017-02-22T14:45:02.014249+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=4d1a2b76-0148-4605-80d8-beea168c36a0 fwd="24.104.249.122" dyno=web.1 connect=2ms service=4ms status=304 bytes=237
+2017-02-22T14:45:02.718992+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=d1cd66c0-2f2f-4bd0-a077-0acf649135e9 fwd="24.104.249.122" dyno=web.1 connect=1ms service=45ms status=304 bytes=145
+2017-02-22T14:45:02.664877+00:00 app[web.1]: get this req: undefined
+2017-02-22T14:45:06.584705+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=6e4f605c-c1bf-4801-95a8-a31f7b607cf8 fwd="46.4.69.4" dyno=web.1 connect=1ms service=3ms status=200 bytes=7539
+2017-02-22T14:45:06.699349+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=7c3f8527-9c64-40a5-85b7-ebb58beffb20 fwd="46.4.69.4" dyno=web.1 connect=0ms service=12ms status=200 bytes=1115
+2017-02-22T14:45:06.940044+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=9dfca908-0885-48dc-9810-706f29b425e4 fwd="46.4.69.4" dyno=web.1 connect=1ms service=34ms status=200 bytes=219
+2017-02-22T14:45:06.878788+00:00 app[web.1]: get this req: undefined
+2017-02-22T14:45:26.865202+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=85ecc2b2-4b07-48b9-9269-340d0c1b4fb8 fwd="168.235.83.93" dyno=web.1 connect=1ms service=25ms status=200 bytes=7539
+2017-02-22T14:45:49.289327+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=4efdda0d-adc5-40b5-83c7-0745ced5dd49 fwd="91.121.67.189" dyno=web.1 connect=1ms service=7ms status=404 bytes=198
+2017-02-22T14:45:49.430719+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=27f8e362-b301-4dd3-a5a5-5c97a5521566 fwd="91.121.67.189" dyno=web.1 connect=1ms service=3ms status=404 bytes=198
+2017-02-22T14:46:33.606222+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=f8dd6bec-f0b1-4b88-9550-49270510a254 fwd="46.101.86.72" dyno=web.1 connect=0ms service=3ms status=200 bytes=7539
+2017-02-22T14:46:48.606678+00:00 heroku[router]: at=info method=HEAD path="/find" host=app.yourgov.us request_id=12c8f6ee-0e28-417a-900e-f43eccc5183f fwd="107.161.26.120" dyno=web.1 connect=1ms service=4ms status=200 bytes=290
+2017-02-22T14:46:58.695749+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=57564101-211d-4090-b00f-fe583b894e46 fwd="91.121.67.189" dyno=web.1 connect=1ms service=3ms status=404 bytes=198
+2017-02-22T14:47:03.423635+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=d17da383-2805-42e7-9481-198de6037f41 fwd="178.33.187.91" dyno=web.1 connect=0ms service=4ms status=200 bytes=7539
+2017-02-22T14:47:04.573942+00:00 heroku[router]: at=info method=HEAD path="/find" host=app.yourgov.us request_id=21ff8275-f725-4697-89f8-18ceee357a50 fwd="62.210.181.15" dyno=web.1 connect=0ms service=2ms status=200 bytes=290
+2017-02-22T14:47:05.922040+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=0ae1a0ba-6ad9-40f1-a89c-0d4365f289a0 fwd="24.169.18.26" dyno=web.1 connect=0ms service=3ms status=200 bytes=7539
+2017-02-22T14:47:05.993929+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=ab52d9f7-78fd-482a-9664-c9152ff1d3d9 fwd="24.169.18.26" dyno=web.1 connect=0ms service=4ms status=200 bytes=1115
+2017-02-22T14:47:06.409178+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=bc831684-7982-46e3-9068-ff8b12a55aa6 fwd="24.169.18.26" dyno=web.1 connect=0ms service=125ms status=200 bytes=219
+2017-02-22T14:47:06.268605+00:00 app[web.1]: get this req: undefined
+2017-02-22T14:47:12.952034+00:00 app[web.1]: post of this req: 12047
+2017-02-22T14:47:13.031972+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=12047" host=app.yourgov.us request_id=5305ee77-3b0f-47b2-85cd-82ffb88041c0 fwd="24.169.18.26" dyno=web.1 connect=0ms service=66ms status=200 bytes=2904
+2017-02-22T14:47:21.421983+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=b97740a0-03ec-4c87-b76b-0ae04f6fdbe4 fwd="91.121.67.189" dyno=web.1 connect=14ms service=14ms status=404 bytes=198
+2017-02-22T14:47:57.955704+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=7f7b3a27-3799-4052-8f55-e4d9ae1cd8dd fwd="5.148.90.180" dyno=web.1 connect=2ms service=4ms status=200 bytes=7539
+2017-02-22T14:48:00.783159+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=fb4b1931-342d-4387-9f0a-7b2f7169d04c fwd="73.231.161.152" dyno=web.1 connect=1ms service=2ms status=200 bytes=7539
+2017-02-22T14:48:00.914671+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=730352c5-7584-40d2-bc99-5d1f904de8e2 fwd="73.231.161.152" dyno=web.1 connect=0ms service=4ms status=200 bytes=1115
+2017-02-22T14:48:01.170745+00:00 app[web.1]: get this req: undefined
+2017-02-22T14:48:01.216440+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=710e5a9c-07fb-4b7c-b4cd-50314c75a013 fwd="73.231.161.152" dyno=web.1 connect=1ms service=18ms status=200 bytes=219
+2017-02-22T14:48:05.075170+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=94110" host=app.yourgov.us request_id=72722077-62df-4aa9-abdf-43571b54fd2b fwd="73.231.161.152" dyno=web.1 connect=1ms service=73ms status=200 bytes=2772
+2017-02-22T14:48:04.974766+00:00 app[web.1]: post of this req: 94110
+2017-02-22T14:48:06.756469+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=0716cedb-1279-42a1-85e7-2af87790e58e fwd="208.113.186.110" dyno=web.1 connect=0ms service=3ms status=200 bytes=7539
+2017-02-22T14:48:47.324797+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=d9585660-3f42-4c93-9fbe-648a5788ff74 fwd="91.121.67.189" dyno=web.1 connect=1ms service=2ms status=404 bytes=198
+2017-02-22T14:49:05.140879+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=96b44608-9da6-4f6c-9a38-a97b76bba820 fwd="91.121.67.189" dyno=web.1 connect=1ms service=2ms status=404 bytes=198
+2017-02-22T14:49:10.879883+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=47640607-1f0b-46ee-ba60-3251c4333e59 fwd="108.210.29.13" dyno=web.1 connect=1ms service=3ms status=200 bytes=7539
+2017-02-22T14:49:11.071815+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=f0028dfd-4477-4c75-b647-c264bce41d19 fwd="108.210.29.13" dyno=web.1 connect=1ms service=3ms status=200 bytes=1115
+2017-02-22T14:49:11.581014+00:00 app[web.1]: get this req: undefined
+2017-02-22T14:49:11.857725+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=cbea3857-cd1e-4db2-939d-1f36f948d4fb fwd="108.210.29.13" dyno=web.1 connect=1ms service=267ms status=200 bytes=219
+2017-02-22T14:49:18.342353+00:00 app[web.1]: post of this req: 91401
+2017-02-22T14:49:18.499927+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=91401" host=app.yourgov.us request_id=c5a0ed23-ff9b-4a12-9150-5cf4387bd92d fwd="108.210.29.13" dyno=web.1 connect=1ms service=147ms status=200 bytes=3564
+2017-02-22T14:49:25.809442+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=072b43d6-33c9-4c3b-8094-3bcae5a0498a fwd="94.79.142.106" dyno=web.1 connect=1ms service=5ms status=200 bytes=7539
+2017-02-22T14:49:25.943128+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=fe2524b2-170a-4a06-83e7-b2e5d6d4f8fc fwd="94.79.142.106" dyno=web.1 connect=1ms service=3ms status=200 bytes=1115
+2017-02-22T14:49:26.373332+00:00 app[web.1]: get this req: undefined
+2017-02-22T14:49:26.418695+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=107ae521-7e45-493a-9fd4-9421c1739f7e fwd="94.79.142.106" dyno=web.1 connect=3ms service=32ms status=200 bytes=219
+2017-02-22T14:49:38.327370+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=d188172a-7a9c-4b12-b2c5-0f052b4c2459 fwd="172.58.137.83" dyno=web.1 connect=0ms service=2ms status=200 bytes=7539
+2017-02-22T14:49:38.564741+00:00 heroku[router]: at=info method=GET path="/style.css" host=app.yourgov.us request_id=8df0dabb-bb5c-488f-b16a-227cdfb97f4a fwd="172.58.137.83" dyno=web.1 connect=1ms service=5ms status=200 bytes=1115
+2017-02-22T14:49:39.478805+00:00 app[web.1]: get this req: undefined
+2017-02-22T14:49:39.529329+00:00 heroku[router]: at=info method=GET path="/api/zip" host=app.yourgov.us request_id=4dc02861-8cb5-461a-9427-cd16cbdcd4a8 fwd="172.58.137.83" dyno=web.1 connect=0ms service=35ms status=200 bytes=219
+2017-02-22T14:49:46.331431+00:00 heroku[router]: at=info method=POST path="/api/zip?zip=60647" host=app.yourgov.us request_id=327ac8f9-4ac7-4cbd-b55a-758c9db5154a fwd="172.58.137.83" dyno=web.1 connect=0ms service=92ms status=200 bytes=3693
+2017-02-22T14:49:46.222512+00:00 app[web.1]: post of this req: 60647
+2017-02-22T14:49:52.959400+00:00 heroku[router]: at=info method=HEAD path="/favicon.ico" host=app.yourgov.us request_id=e318a6cb-d912-46ee-89c2-dfe220f8f5a9 fwd="91.121.67.189" dyno=web.1 connect=1ms service=2ms status=404 bytes=198
+2017-02-22T14:50:05.107519+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=2480524f-4ddd-4bb0-b62c-b612b890dd9a fwd="54.174.114.150" dyno=web.1 connect=0ms service=6ms status=206 bytes=7586
+2017-02-22T14:50:14.125647+00:00 heroku[router]: at=info method=GET path="/robots.txt" host=app.yourgov.us request_id=e4a0ca2d-6f78-4c19-bb9c-e51e464708f6 fwd="199.16.157.180" dyno=web.1 connect=1ms service=3ms status=404 bytes=221
+2017-02-22T14:50:14.157338+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=d25e7d25-24ce-4bc7-841d-7f67ac219261 fwd="199.16.157.180" dyno=web.1 connect=1ms service=3ms status=200 bytes=7539
+2017-02-22T14:50:14.696265+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=15e6ac3e-b861-4808-ba59-edcc9b3c6d60 fwd="88.198.57.80" dyno=web.1 connect=1ms service=3ms status=200 bytes=7539
+2017-02-22T14:50:14.802779+00:00 heroku[router]: at=info method=GET path="/robots.txt" host=app.yourgov.us request_id=03669fe3-cb9d-4344-99f6-ede0da12bc41 fwd="17.142.152.232" dyno=web.1 connect=0ms service=1ms status=404 bytes=221
+2017-02-22T14:50:15.039125+00:00 heroku[router]: at=info method=GET path="/find" host=app.yourgov.us request_id=530be9b0-c217-4275-90c4-36cc6e733b25 fwd="17.142.154.142" dyno=web.1 connect=0ms service=2ms status=200 bytes=7539
