@@ -1,0 +1,198 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Who is Your Representative?</title>
+    <meta name="description" content="A cool thing made with <3">
+    <link id="favicon" rel="icon" href="https://gomix.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header class="">
+      <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+        <div class="container">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="/">🇺🇸</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">All <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/house">House</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/senate">Senate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/bills">Bills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/find">Find</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/tweet">Tweet</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <main class="container">
+      <div class="alert alert-info alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <strong>Hey there!</strong> Enter your zip code to find your representatives. Then craft a message to tweet to them. 
+      </div>
+
+      <form id="add">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="number" class="form-control" maxlength="5" placeholder="Search by zip code (e.g. 10040)">
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit">Add Reps</button>
+            </span>
+          </div>
+  
+      </form>
+      <br>
+      <form id="tweet">
+        <div class="form-group">
+          <div class="input-group">
+            <textarea id="toTweet" class="form-control" maxlength="140" placeholder="I'd really like you to...">Hey there, I'd really like it if... </textarea>
+          </div>
+        </div>
+        
+        <button id="tweetNow" type="submit" class="btn btn-primary">Tweet</button>
+  
+      </form>
+
+      <section class="dreams">
+        <ul id="dreams" class="row">
+        </ul>
+      </section>
+    </main>
+
+    <footer class="container">
+      <a href="https://github.com/comraderoyce/">
+        😸
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="http://listjs.com/assets/javascripts/list.min.js"></script>
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+
+        
+    <script>
+      // client-side js
+      // run by the browser each time your view template is loaded
+      // 
+      
+      $(function() {
+        console.log('hello world :o');
+        
+        var zip = 10040;      
+        console.log(zip);
+        
+        $.get('/api/zip', function(zip) {
+          console.log(zip);
+          var billsObject = JSON.parse(zip);
+          console.log(billsObject);
+
+          // billsObject.results.forEach(function(bill) {
+          //   $('<div class="card-2 col-sm-12"></div>')
+          //     .append('<h3 class="billTitle"><a target="_blank" href="' + bill.urls.congress +'">'   + bill.bill_id + '</a></h3>')
+          //     .append('<p class="billOfficialTitle">' + bill.official_title + '</p>')
+          //     .append('<p class="billSponsor">Sponsor: ' + bill.sponsor.first_name +  ' ' + bill.sponsor.last_name + '</p>')
+          //     .appendTo('ul#dreams'); 
+          // });
+      
+        });
+      
+      });
+
+      $('form#add').submit(function(event) {
+        event.preventDefault();
+        var zip = $('input').val();
+        $.post('/api/zip?' + $.param({zip: zip}), function(data) {
+          var localReps = JSON.parse(data);
+          console.log(localReps);
+          localReps.results.forEach(function(rep){
+            $('textarea#toTweet')
+              .append('@' + rep.twitter_id + ' ')
+          });
+         
+          $('input').val('');
+          $('input').focus();
+        });
+      });
+
+          $('#tweetNow').click(function() {
+            var toTweet = $('textarea#toTweet').text();
+            window.open('https://twitter.com/intent/tweet?text=' + toTweet, "_blank");
+            $('input').val('');
+            return false;
+          });
+
+          
+
+      
+      // by default, you've got jQuery,
+      // add other scripts at the bottom of index.html
+      
+      function ordinalSuffix(i) {
+          var j = i % 10,
+              k = i % 100;
+          if (j == 1 && k != 11) {
+              return i + "st";
+          }
+          if (j == 2 && k != 12) {
+              return i + "nd";
+          }
+          if (j == 3 && k != 13) {
+              return i + "rd";
+          }
+          return i + "th";
+      }
+      
+      
+      
+      
+      
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-41205057-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </body>
+</html>

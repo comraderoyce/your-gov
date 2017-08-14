@@ -75,6 +75,10 @@ app.get("/reps", function (req, res) {
   res.send(repsNames);
 });
 
+app.get("/tweet", function (req, res) {
+  res.sendFile(__dirname + '/views/tweet.html');
+});
+
 app.get("/find", function (req, res) {
   res.sendFile(__dirname + '/views/find.html');
 });
